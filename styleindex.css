@@ -89,7 +89,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(https://pngimage.net/wp-content/uploads/2018/06/tarantino-png-1.png);
-    z-index: 1;
+    
 }
 
 .actu_detail{
@@ -97,8 +97,12 @@ img {
     width: 38%;
     margin: 20px 0px 20px 0px;
     height: 360px;
-    z-index: -2
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+
+    
 }
+
+
 
 .actu_header{
     display: flex;
@@ -107,6 +111,12 @@ img {
     padding: 10px 40px 10px 40px;
     overflow: auto;
 
+}
+
+.actu_detail:hover{
+    transition: all .7s ease;
+    box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+    
 }
 
 .actu_date{
