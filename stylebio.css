@@ -1,29 +1,37 @@
+/* partie perso CSS */
 body {
     color: black ;
 }
-img {
-    width:500px;
-    height:300px; 
-    float: right;
-    flood-opacity: 50%
-}
-#flotte2 {
+
+
+.flotte1 {
     display: flex;
-    flex-direction: row;
-    float: left;
+
 }
-div  {
+.flotte1 img{
+    width:50%;
+    height:30%; 
+}
+.flotte img{
+    width:50%;
+    height:30%; 
+}
+.flotte {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
 }
-#espace{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
+
+
 p{
     text-align: justify;
+    margin: 10px;
 }
+#Centre{
+    display: flex;
+    justify-content: space-around;
+}
+
+ /* <! -- partie commune CSS */ 
 html{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
