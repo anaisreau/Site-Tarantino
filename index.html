@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/06d6a8ba94.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styleindex.css">
     <title>Document</title>
 </head>
@@ -24,9 +25,30 @@
             <li><a href="https://zupimages.net/viewer.php?id=20/11/m6l4.jpg"><img src="https://zupimages.net/up/20/11/m6l4.jpg" alt="" / class="rs"></a></li>
             <li><a href="https://zupimages.net/viewer.php?id=20/11/jmh8.jpg"><img src="https://zupimages.net/up/20/11/jmh8.jpg" alt="" / class="rs"></a></li>  
         </ul>
-    </nav>
-    
+    </nav> 
+
     <img class="banniere" alt="home" src="https://lecafedugeek.fr/wp-content/uploads/2019/08/movie-icons-background-21-1500x844.jpg">
+
+    <h1 id="section_title"></h1>
+
+    <div id="text">
+
+    </div>
+
+    <script type="text/javascript">
+    var i=0, text;
+    text = "Check the latest news"
+
+    function typing() {
+        if(i<text.length){
+            document.getElementById("section_title").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(typing, 100);
+        }
+     }
+     typing();
+
+    </script>
 
     <div class="actu">
         <div class="actu_detail">
