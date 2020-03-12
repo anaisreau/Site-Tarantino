@@ -1,11 +1,10 @@
 /* partie perso CSS */
-*{
-    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg), auto;    
-}
 body  {
     background: url('https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fpngimage.net%2Fwp-content%2Fuploads%2F2018%2F06%2Ftarantino-png-1.png') no-repeat 1% 75%;
     background-attachment: fixed;
     background-position: center;
+    background-position-x: center;
+    background-position-y: bottom;
 }
 .blocOpaque {
     width:100%;
@@ -65,9 +64,22 @@ p{
   }
   
   nav{
+
     color: whitesmoke;
     font-size: 20px;
     background-color: #99333391;
+  }
+/* curseur */
+  nav :hover {
+    cursor: context-menu;
+  }
+  .footer :hover{
+    cursor: context-menu;
+  }
+
+  .icone :hover{
+    cursor: context-menu;
+
   }
   
   nav .menu{
