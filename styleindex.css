@@ -1,0 +1,161 @@
+  html{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  header{
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+  
+  .logo{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    
+  }
+  
+  nav .menu{
+    display: flex;
+    list-style: none;
+    flex-direction: row; 
+    max-width: 100%;
+    align-items: center;
+  }
+
+  nav #menu{
+      display: flex;
+      margin-left: 30px;
+  }
+  nav .icone{
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: row;
+      list-style: none;
+  }
+  nav{
+      display: flex;
+      justify-content: space-between;
+    }
+  nav .rs{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  footer ul{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      list-style: none;
+  }
+
+  footer .icone{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+footer .rs{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+}
+/* CSS HOME PAGE */
+
+img {
+    width: 100%;
+    height: 500px;
+
+}
+
+#section_title{
+    color: #993333;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.actu{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://pngimage.net/wp-content/uploads/2018/06/tarantino-png-1.png);
+    
+}
+
+.actu_detail{
+    background-color: rgba(249, 245, 245, 0.548);
+    width: 38%;
+    margin: 20px 0px 20px 0px;
+    height: 360px;
+    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+
+    
+}
+
+
+
+.actu_header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 10px 40px 10px 40px;
+    overflow: auto;
+
+}
+
+.actu_detail:hover{
+    transition: all .7s ease;
+    box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+    
+}
+
+.actu_date{
+    color: black;
+    opacity: 0.5;
+    height: 100%;
+}
+
+.actu_description{
+    text-align: justify;
+    padding: 10px 40px 10px 40px;
+}
+
+.actu_description p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.actu_foot{
+    display: flex;
+    justify-content: center;
+}
+.actu_button{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background-color: #99333391;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.actu_button img{
+    width: 35px;
+    height: 35px;
+}
+
+.actu_button a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
