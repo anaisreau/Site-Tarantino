@@ -42,70 +42,106 @@ p{
 }
 
  /* <! -- partie commune CSS */ 
-html{
+ html{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-header{
+  }
+  
+  header{
     max-width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.logo{
+    margin-bottom: 10px;
+  }
+  
+  .logo{
   display: flex;
   width: 150px;
   height: 150px;
   justify-content: center;
-
-}
-
-nav .menu{
+  
+  }
+  
+  nav{
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: #99333391;
+  }
+  
+  nav .menu{
   display: flex;
   list-style: none;
   flex-direction: row; 
   max-width: 100%;
   align-items: center;
-}
-
-nav #menu{
+  }
+  
+  nav #menu{
     display: flex;
     margin-left: 30px;
-}
-nav .icone{
+  }
+  
+  nav .icone{
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
     list-style: none;
-}
-nav{
+  }
+  
+  nav{
     display: flex;
     justify-content: space-between;
   }
-nav .rs{
-  width: 45px;
-  height: 45px;
+  
+  nav .rs{
+  width: 25px;
+  height: 25px;
   display: flex;
   flex-direction: row;
-}
-
-footer ul{
+  margin-right: 10px;
+  }
+  
+  footer{
+    
+    color: whitesmoke;
+    font-size: 14px;
+  }
+  
+  footer ul{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     list-style: none;
-}
-
-footer .icone{
+    align-items: center;
+  }
+  
+  footer .icone{
   display: flex;
   justify-content: center;
   flex-direction: row;
   list-style: none;
-}
-
-footer .rs{
-width: 45px;
-height: 45px;
-display: flex;
-flex-direction: row;
-} 
+  }
+  
+  .footer{
+    background-color: #99333391;
+  }
+  
+  footer li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  footer .rs{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  }
+  
+  footer .rs2{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-right: -12px;
+    }
