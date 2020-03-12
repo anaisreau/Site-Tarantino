@@ -1,12 +1,13 @@
 /* partie perso CSS */
+*{
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.svg), auto;    
+}
 body  {
     background: url('https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fpngimage.net%2Fwp-content%2Fuploads%2F2018%2F06%2Ftarantino-png-1.png') no-repeat 1% 75%;
     background-attachment: fixed;
     background-position: center;
 }
 .blocOpaque {
-
-
     width:100%;
     height:100%;
     margin:0px 0px;
@@ -40,7 +41,9 @@ p{
     display: flex;
     justify-content: space-around;
 }
-
+.custom {
+    cursor: url('path-to-image.png'), auto;
+  }
  /* <! -- partie commune CSS */ 
  html{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -78,6 +81,7 @@ p{
   nav #menu{
     display: flex;
     margin-left: 30px;
+    margin-top: 10px;
   }
   
   nav .icone{
@@ -85,6 +89,7 @@ p{
     justify-content: flex-end;
     flex-direction: row;
     list-style: none;
+    margin-top: 10px;
   }
   
   nav{
