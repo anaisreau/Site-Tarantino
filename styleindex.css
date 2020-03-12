@@ -69,7 +69,7 @@ footer .rs{
 
 img {
     width: 100%;
-    height: 500px;
+    height: 600px;
 
 }
 
@@ -98,10 +98,7 @@ img {
     margin: 20px 0px 20px 0px;
     height: 360px;
     box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
-
-    
 }
-
 
 
 .actu_header{
@@ -142,7 +139,6 @@ img {
     display: flex;
     justify-content: center;
     height: 40px;
-    background-color: #99333391;
     width: 50%;
     border-radius: 5px;
 }
@@ -150,6 +146,11 @@ img {
 .actu_button img{
     width: 35px;
     height: 35px;
+}
+
+
+.actu_button:hover{
+    background-color: #99333391;
 }
 
 .actu_button a{
