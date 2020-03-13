@@ -1,3 +1,37 @@
+html{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+
+header{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left : 80px;
+    
+  }.qt{
+    height: 50px;
+    width: auto;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 55px;
+  }
+  
+  .tarantino{
+  margin-top: 60px;
+  height: 40px;
+  width: auto;
+  }
+  
+  .logo{
+  display: flex;
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  margin-top: 10px;}
+
+
+
 body h1{
     background-color: black;
     color : gray;
@@ -21,7 +55,7 @@ body { /* Pour l'image de fond... */
     padding: -10px ;
     filter:Alpha(opacity=100);-moz-opacity:0.90;opacity: 0.90; 
   }
-img {
+.affiche {
     max-width: 100px;
     height : 150px;
     float :left;

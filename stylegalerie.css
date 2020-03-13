@@ -14,7 +14,20 @@ html{
     max-width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-left : 80px;
+    
+  }.qt{
+    height: 50px;
+    width: auto;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 55px;
+  }
+  
+  .tarantino{
+  margin-top: 60px;
+  height: 40px;
+  width: auto;
   }
   
   .logo{
@@ -22,14 +35,20 @@ html{
   width: 150px;
   height: 150px;
   justify-content: center;
-  
-  }
+  margin-top: 10px;}
+
+
   
   nav{
+    line-height: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: whitesmoke;
     font-size: 20px;
     background-color: #99333391;
+    display: flex;
+    justify-content: space-between;
   }
+
   
   nav .menu{
   display: flex;
@@ -50,13 +69,9 @@ html{
     justify-content: flex-end;
     flex-direction: row;
     list-style: none;
-    margin: 10px;
+    margin-top: 10px;
   }
-  
-  nav{
-    display: flex;
-    justify-content: space-between;
-  }
+
   
   nav .rs{
   width: 25px;
@@ -65,6 +80,17 @@ html{
   flex-direction: row;
   margin-right: 10px;
   }
+
+
+  .liens {
+    color: white;
+    text-decoration: none;
+  }
+  .liens a:hover{
+    color: white;
+    text-decoration: none;
+  }
+  
   
   footer{
     
