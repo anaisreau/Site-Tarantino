@@ -31,7 +31,7 @@ div.blocOpaque { /* Astuce de création d'un bloc à 90% opaque à l'image de fo
     padding: -10px ;
     filter:Alpha(opacity=100);-moz-opacity:0.90;opacity: 0.90; 
   }
-.toutBloc img {
+.affiche {
     max-width: 150px;
     height : auto;
     float :left;
