@@ -59,6 +59,9 @@ p{
  /* curseur */
  nav :hover {
   cursor: pointer;
+  color: white;
+  text-decoration: none;
+
 }
 .footer :hover{
   cursor: pointer;
@@ -72,9 +75,11 @@ p{
 /* liens vers les autres pages */
 .liens {
   color: white;
+  text-decoration: none;
 }
-.liens :hover{
-
+.liens a:hover{
+  color: white;
+  text-decoration: none;
 }
 
 /* reste du CSS */
@@ -86,7 +91,20 @@ p{
     max-width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-left : 80px;
+    
+  }.qt{
+    height: 50px;
+    width: auto;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 55px;
+  }
+  
+  .tarantino{
+  margin-top: 60px;
+  height: 40px;
+  width: auto;
   }
   
   .logo{
@@ -94,14 +112,16 @@ p{
   width: 150px;
   height: 150px;
   justify-content: center;
-  
-  }
+  margin-top: 10px;}
   
   nav{
-
+    line-height: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: whitesmoke;
     font-size: 20px;
     background-color: #99333391;
+    display: flex;
+    justify-content: space-between;
   }
 
   
@@ -126,11 +146,7 @@ p{
     list-style: none;
     margin-top: 10px;
   }
-  
-  nav{
-    display: flex;
-    justify-content: space-between;
-  }
+
   
   nav .rs{
   width: 25px;
