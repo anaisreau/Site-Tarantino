@@ -27,23 +27,20 @@
         </ul>
     </nav> 
 
-    <img class="banniere" alt="home" src="https://sensesofcinema.com/assets/uploads/2015/12/Feature-1.-Quentin-Tarantino-750x400.jpg">
-
-    <h1 id="section_title"></h1>
-
-    <div id="text">
-
+    <div class ="ban">
+        <img class="banniere" alt="home" src="https://sensesofcinema.com/assets/uploads/2015/12/Feature-1.-Quentin-Tarantino-750x400.jpg">
+        <h1 id="quote"></h1>
     </div>
 
     <script type="text/javascript">
     var i=0, text;
-    text = "! Check the latest news !"
+    text = "\"In real life there are no bad guys. Everybody just has their own perspective.\""
 
     function typing() {
         if(i<text.length){
-            document.getElementById("section_title").innerHTML += text.charAt(i);
+            document.getElementById("quote").innerHTML += text.charAt(i);
             i++;
-            setTimeout(typing, 100);
+            setTimeout(typing, 40);
         }
      }
      typing();

@@ -104,9 +104,11 @@ footer .rs2{
 
 /* CSS HOME PAGE */
 
-.banniere{
-  margin-top: 10px;
+.ban{
+  display: flex;
+  background-color: black;
 }
+
 
 img {
     width: 100%;
@@ -114,10 +116,12 @@ img {
 
 }
 
-#section_title{
+#quote{
     color: #993333;
     text-align: center;
     text-transform: uppercase;
+    width: 400px;
+    margin : auto;
 }
 
 
