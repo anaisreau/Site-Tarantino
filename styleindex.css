@@ -6,21 +6,36 @@ header{
   max-width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
+  margin-left : 80px;
 }
 
-.logo{
+body{
+  margin: 0px;
+}
+.qt{
+  height: 50px;
+  width: auto;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 55px;
+}
+
+.tarantino{
+margin-top: 60px;
+height: 40px;
+width: auto;
+}.logo{
 display: flex;
 width: 150px;
 height: auto;
 justify-content: center;
-
-}
+margin-top: 10px;}
 
 nav{
   color: whitesmoke;
   font-size: 20px;
   background-color: #99333391;
+  line-height: 30px;
 }
 
 nav .menu{
@@ -101,6 +116,14 @@ footer .rs2{
   flex-direction: row;
   margin-right: -12px;
   }
+
+
+/* liens vers les autres pages */
+.liens {
+  color: white;
+  text-decoration: none;
+}
+
 
 /* CSS HOME PAGE */
 
