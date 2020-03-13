@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 html{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+  }
 
 header{
   max-width: 100%;
@@ -13,7 +12,7 @@ header{
 .logo{
 display: flex;
 width: 150px;
-height: 150px;
+height: auto;
 justify-content: center;
 
 }
@@ -115,8 +114,8 @@ footer .rs2{
 }
 
 img {
-    width: 100%;
-    height: 600px;
+    width: 250px;
+    height: auto;
 
 }
 
@@ -129,92 +128,8 @@ img {
 }
 
 .content{
-  display: flex;
+display: flex;
 }
-=======
-  html{
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-  
-  header{
-      max-width: 100%;
-      display: flex;
-      justify-content: center;
-  }
-  
-  .logo{
-    display: flex;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    
-  }
-  
-  nav .menu{
-    display: flex;
-    list-style: none;
-    flex-direction: row; 
-    max-width: 100%;
-    align-items: center;
-  }
-
-  nav #menu{
-      display: flex;
-      margin-left: 30px;
-  }
-  nav .icone{
-      display: flex;
-      justify-content: flex-end;
-      flex-direction: row;
-      list-style: none;
-  }
-  nav{
-      display: flex;
-      justify-content: space-between;
-    }
-  nav .rs{
-    width: 45px;
-    height: 45px;
-    display: flex;
-    flex-direction: row;
-  }
-
-  footer ul{
-      display: flex;
-      justify-content: space-around;
-      flex-direction: row;
-      list-style: none;
-  }
-
-  footer .icone{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    list-style: none;
-}
-
-footer .rs{
-  width: 45px;
-  height: 45px;
-  display: flex;
-  flex-direction: row;
-}
-/* CSS HOME PAGE */
-
-img {
-    width: 100%;
-    height: 500px;
-
-}
-
-#section_title{
-    color: #993333;
-    text-align: center;
-    text-transform: uppercase;
-}
-
->>>>>>> filmoNadir
-
 .actu{
     display: flex;
     justify-content: space-between;
@@ -233,18 +148,9 @@ img {
     margin: 20px 0px 20px 0px;
     height: 360px;
     box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
-<<<<<<< HEAD
 }
 
 
-=======
-
-    
-}
-
-
-
->>>>>>> filmoNadir
 .actu_header{
     display: flex;
     align-items: baseline;
@@ -283,10 +189,6 @@ img {
     display: flex;
     justify-content: center;
     height: 40px;
-<<<<<<< HEAD
-=======
-    background-color: #99333391;
->>>>>>> filmoNadir
     width: 50%;
     border-radius: 5px;
 }
@@ -296,21 +198,16 @@ img {
     height: 35px;
 }
 
-<<<<<<< HEAD
-
 .actu_button:hover{
     background-color: #99333391;
 }
 
-=======
->>>>>>> filmoNadir
 .actu_button a{
     text-decoration: none;
     color: black;
     font-size: large;
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
-<<<<<<< HEAD
 }
 
 /* CSS BLOOD EFFECT */
@@ -351,8 +248,6 @@ img {
 }
 
 
-
-
 @keyframes ripple {
     from {
       opacity: 1;
@@ -386,6 +281,4 @@ img {
     to {
       top: 800px;
     }
-=======
->>>>>>> filmoNadir
 }
