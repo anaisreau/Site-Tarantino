@@ -40,10 +40,29 @@ p{
     display: flex;
     justify-content: space-around;
 }
-.custom {
-    cursor: url('path-to-image.png'), auto;
-  }
  /* <! -- partie commune CSS */ 
+ /* curseur */
+ nav :hover {
+  cursor: pointer;
+}
+.footer :hover{
+  cursor: pointer;
+}
+
+.icone :hover{
+  cursor: pointer;
+
+}
+
+/* liens vers les autres pages */
+.liens {
+  color: white;
+}
+.liens :hover{
+
+}
+
+/* reste du CSS */
  html{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
@@ -69,18 +88,7 @@ p{
     font-size: 20px;
     background-color: #99333391;
   }
-/* curseur */
-  nav :hover {
-    cursor: context-menu;
-  }
-  .footer :hover{
-    cursor: context-menu;
-  }
 
-  .icone :hover{
-    cursor: context-menu;
-
-  }
   
   nav .menu{
   display: flex;
