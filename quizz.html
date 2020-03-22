@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wclassth=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylequizz.css">
+    <!-- fav icon -->
+    <link rel="shortcut icon" type="mage/png"
+        href="https://cdn.imgbin.com/4/9/12/imgbin-quentin-tarantino-blu-ray-disc-reservoir-dogs-dvd-film-channing-tatum-tarantino-poster-5FQFVDj1iSv793E8WMyD6w6v9.jpg">
+    <title>Quizz</title>
+</head>
+<header>
+    <a href="https://zupimages.net/viewer.php?id=20/11/2onb.png"><img src="https://zupimages.net/up/20/11/2onb.png"
+            alt="" class="qt"></a>
+    <a href="https://zupimages.net/viewer.php?id=20/11/m5p8.png"><img src="https://zupimages.net/up/20/11/m5p8.png"
+            alt="" class="logo"></a>
+    <a href="https://zupimages.net/viewer.php?id=20/11/8y96.png"><img src="https://zupimages.net/up/20/11/8y96.png"
+            alt="" class="qt tarantino"></a>
+</header>
+
+<body>
+    <div class="blocOpaque">
+        <!-- partie commune menu -->
+        <nav>
+            <ul class="menu">
+                <li id="menu"><a class="liens" href="index.html">Accueil</a> </li>
+                <li id="menu"><a class="liens" href="biographie.html"> Biographie</a> </li>
+                <li id="menu"><a class="liens" href="filmographie.html"> Filmographie</a></li>
+                <li id="menu"><a class="liens" href="galerie.html"> Galerie</a> </li>
+<!-- ajout page -->
+                <li id="menu"><a class="liens" href="quizz.html"> Quizz</a> </li>
+<!-- fin ajout page -->
+            </ul>
+            <ul class="icone">
+                <li><a href="https://www.instagram.com/nadir_13016/"><img src="https://zupimages.net/up/20/11/80cx.png"
+                            alt="instagram" class="rs"></a></li>
+                <li><a href="https://www.youtube.com/watch?v=kxopViU98Xo&t=6s"><img
+                            src="https://zupimages.net/up/20/11/0hby.png" alt="" class="rs"></a></li>
+                <li><a href="https://www.youtube.com/watch?v=qBfqcVUK8Q0"><img
+                            src="https://zupimages.net/up/20/11/nqb9.png" alt="" class="rs"></a></li>
+                <li><a href="https://www.youtube.com/watch?v=jcF-1AoDO18Ë"><img
+                            src="https://zupimages.net/up/20/11/ry4p.png" alt="" class="rs"></a></li>
+            </ul>
+        </nav>
+    </div>
+<!-- Quizz -->
+
+    <div class="quizz ">
+        <form oninput="score.value=parseInt(question1.value || 0)+parseInt(question2.value || 0)+parseInt(question3.value || 0)+parseInt(question4.value || 0)+parseInt(question5.value || 0)+parseInt(question6.value || 0)+parseInt(question7.value || 0)+parseInt(question8.value || 0)+parseInt(question9.value || 0)+parseInt(question10.value || 0)">
+            <div>
+              <p>For Which movie Quentin TARANTINO won the "Palm d'OR"?</p>
+              <input id="question1-answer1" name="question1" type="radio" value="1">
+              <label for="question1-answer1">Pul Fiction</label>
+              <input id="question1-answer2" name="question1" type="radio" value="0">
+              <label for="question1-answer2">Reservoir Dogs</label>
+            </div>
+            <div>
+              <p>What is the Name of Buck's car in Kill Bill?</p>
+              <input id="question2-answer1" name="question2" type="radio" value="0">
+              <label for="question2-answer1">Buck"s Wagon</label>
+              <input id="question2-answer2" name="question2" type="radio" value="1">
+              <label for="question2-answer2">Pussy Wagon</label>
+            </div>
+            <div>
+              <p>In wich movie we can see Brad Pitt as the actor lining of Leonardo DiCaprio ?</p>
+              <input id="question3-answer1" name="question3" type="radio" value="1">
+              <label for="question3-answer1">Once Upon A time In HHOLLYWOOD</label>
+              <input id="question3-answer2" name="question3" type="radio" value="0">
+              <label for="question3-answer2">Reservoir Dog</label>
+            </div>
+            <div>
+                <p>What is the Name of the blacksmith of Beatrix Kiddo Katana in Kill BIll?</p>
+                <input id="question4-answer1" name="question4" type="radio" value="1">
+                <label for="question4-answer1">Hatori Hanzo</label>
+                <input id="question4-answer2" name="question4" type="radio" value="0">
+                <label for="question4-answer2">Honda Tadakatsu</label>
+              </div>
+              <div>
+                <p>Which Actor played Bill in Kill bill?</p>
+                <input id="question5-answer1" name="question5" type="radio" value="0">
+                <label for="question5-answer1">David Ruben</label>
+                <input id="question5-answer2" name="question5" type="radio" value="1">
+                <label for="question5-answer2">David Carradine</label>
+              </div>
+              <div>
+                <p>What is the name of Django's wife in Django Unchained?</p>
+                <input id="question6-answer1" name="question6" type="radio" value="1">
+                <label for="question6-answer1">Broomhilda</label>
+                <input id="question6-answer2" name="question6" type="radio" value="0">
+                <label for="question6-answer2">Johanna</label>
+              </div>
+              <div>
+                <p>In Pulp Fiction who played Jules ?</p>
+                <input id="question7-answer1" name="question7" type="radio" value="1">
+                <label for="question7-answer1">Samuel L Jackson</label>
+                <input id="question7-answer2" name="question7" type="radio" value="0">
+                <label for="question7-answer2">John Travolta</label>
+              </div>
+              <div>
+                  <p>Which character played Leonardo DiCaprio in Django unchained?</p>
+                  <input id="question8-answer1" name="question8" type="radio" value="1">
+                  <label for="question8-answer1">Calvin Candie</label>
+                  <input id="question8-answer2" name="question8" type="radio" value="0">
+                  <label for="question8-answer2">Dr Schultz</label>
+                </div>
+                              <div>
+                <p>How many "nazis scalp" want Aldo Raine in Inglorious Basterd ?</p>
+                <input id="question9-answer1" name="question9" type="radio" value="1">
+                <label for="question9-answer1">100</label>
+                <input id="question9-answer2" name="question9" type="radio" value="0">
+                <label for="question9-answer2">10</label>
+              </div>
+              <div>
+                  <p> In the comics with which famous character Django Unchained Had adventures ?</p>
+                  <input id="question10-answer1" name="question10" type="radio" value="1">
+                  <label for="question10-answer1">Zorro</label>
+                  <input id="question10-answer2" name="question10" type="radio" value="0">
+                  <label for="question10-answer2">Abraham Lincoln</label>
+                </div>
+
+            <p>Your score is <output name="score">0</output></p>
+          </form>
+          
+    </div>
+</body>
+<footer>
+    <div>
+        <ul class="footer">
+            <li>Mentions légales</li>
+            <li>Ressources</li>
+            <li>Contact</li>
+            <li>A Propos</li>
+        </ul>
+
+        <ul class="icone">
+            <li><a href="https://www.instagram.com/nadir_13016/"><img
+                        src="https://zupimages.net/up/20/11/ivfe.png" alt="" class="rs"></a></li>
+            <li><a href="https://zupimages.net/viewer.php?id=20/05/dpei.png"><img
+                        src="https://zupimages.net/up/20/05/dpei.png" alt="" class="rs"></a></li>
+            <li><a href="https://zupimages.net/viewer.php?id=20/08/gnvm.png"><img
+                        src="https://zupimages.net/up/20/08/gnvm.png" alt="" class="rs2"></a></li>
+        </ul>
+    </div>
+
+</footer>
+
+</html>
