@@ -141,6 +141,7 @@ img {
 
 .content{
   display: flex;
+  flex-direction: column;
 }
 
 .actu{
@@ -162,7 +163,7 @@ img {
     box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
@@ -199,6 +200,7 @@ img {
 .actu_foot{
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 .actu_button{
     display: flex;
@@ -213,7 +215,6 @@ img {
     height: 35px;
 }
 
-
 .actu_button:hover{
     background-color: #99333391;
 }
@@ -224,6 +225,44 @@ img {
     font-size: large;
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
+}
+
+.newsletter {
+  background-color: black; 
+  color : white;
+  display: flex;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: -14px;
+}
+
+.punchline{
+  width: 40%;
+}
+
+.register{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  justify-content: center;
+}
+
+#email {
+  width: 45%;
+  text-align: center;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+#submit {
+  margin: 0% 20% 0% 20%;
+  width: 30%;
+  background-color: #993333;
+  height: 40px;
+  font-weight: 900;
+  font-size: larger;
+  border: none;
 }
 
 /* CSS BLOOD EFFECT */
@@ -335,6 +374,23 @@ img{
 }
 .actu_button{
   height: auto;
+}
+
+.newsletter{
+  display: flex;
+  flex-direction: column;
+}
+
+.punchline{
+  width: 100%;
+}
+
+.register{
+  width: 100%;
+}
+
+#submit:hover{
+  color : white;
 }
 
 /* CSS BLOOD EFFECT */
