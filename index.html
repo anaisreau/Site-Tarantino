@@ -46,16 +46,25 @@
         if(i<text.length){
             document.getElementById("quote").innerHTML += text.charAt(i);
             i++;
-            setTimeout(typing, 40);
+            setTimeout(typing, 80);
         }
      }
      typing();
 
     </script>
 
+
     <div class="content">
+
+        <div class="purpose">
+            <h2>Le site d'information sur Quentin Tarantino</h2>     
+            <h3 class="categories">Les dernières actus :</h3>
+   
+        </div>
+    
         
         <div class="actu">
+
             <div class="actu_detail">
                 <div class="actu_header">
                     <h2>Marathon Tarantino au Pathé Atlantis le 14 et 15 mars</h2>
@@ -132,6 +141,28 @@
 
         </div>
 
+        <div class="purpose">
+            <h3 class="categories">Explorez le site par thématique :</h3>
+                <div class="icones_bar">
+                    <div class="thematique"><a href="biographie.html">
+                        <h3>Biographie</h3>
+                        <img class="icone_thematique" id="biographie" alt="biographie" src="https://www.13emerue.fr/sites/default/files/episode/images/icone_quentin_tarantino_sst_vf.jpg">
+                    </a></div>
+                    
+                    <div class="thematique"><a href="filmographie.html">
+                        <h3>Filmographie</h3>    
+                        <img class="icone_thematique" id="filmographie" alt="filmographie" src="https://thumb.canalplus.pro/http/unsafe/414x/smart/creativemedia-image.canalplus.pro/content/0001/19/6deef3dfb5950d8d2293beaf38c5b76d7ab0634f.png">
+                    </a></div>
+
+                    <div class="thematique"><a href="galerie.html">
+                        <h3>Galerie</h3> 
+                        <img class="icone_thematique" id="galerie" alt="galerie" src="https://www.parisselectbook.com/wp-content/uploads/2013/01/Une-Django-Galerie-Chappe-Paris-Select.jpg">
+                    </a></div>  
+                </div>
+                
+        </div>
+    
+
         <div class="newsletter">
             <div class="punchline"><h2 id="newsletter">Ne manquez pas les dernières actus, inscrivez-vous à la newsletter !</h2></div>
             <form class="register" method="POST">
@@ -139,6 +170,7 @@
                 <button type="submit" id="submit">S'inscrire</button>
             </form>
         </div>
+
     </div>
   
 <footer>
