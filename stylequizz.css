@@ -1,0 +1,186 @@
+ /* Partie perso */
+.quizz {
+    background-color: grey ;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    margin-top:5%;
+    filter:Alpha(opacity=100);-moz-opacity:0.90;opacity: 0.90;
+    display: flex;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+    box-shadow: 20px 38px 34px -26px;
+}
+div form{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+div form div p {
+    font-weight: bolder;
+}
+/* input  */
+
+ /* <! -- partie commune CSS */ 
+ /* curseur */
+ nav :hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  
+  }
+  .footer :hover{
+    cursor: pointer;
+  }
+  
+  .icone :hover{
+    cursor: pointer;
+  
+  }
+  
+  /* liens vers les autres pages */
+  .liens {
+    color: white;
+    text-decoration: none;
+  }
+  .liens a:hover{
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* reste du CSS */
+   html{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    header{
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-left : 80px;
+      
+
+    }
+    
+    .qt{
+      height: 50px;
+      width: auto;
+      justify-content: space-between;
+      display: flex;
+      margin-top: 55px;
+    }
+    
+    .tarantino{
+    margin-top: 60px;
+    height: 40px;
+    width: auto;
+    }
+    
+    .logo{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    margin-top: 10px;}
+    
+    nav{
+      line-height: 30px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: whitesmoke;
+      font-size: 20px;
+      background-color: #99333391;
+      display: flex;
+      justify-content: space-between;
+    }
+    input {
+        border:1px solid #789838; 
+        padding:2px; 
+        font-size:100%; 
+        background:#ffffff; 
+        color:#333333; 
+        } 
+    
+    nav .menu{
+    display: flex;
+    list-style: none;
+    flex-direction: row; 
+    max-width: 100%;
+    align-items: center;
+    }
+    
+    nav #menu{
+      display: flex;
+      margin-left: 30px;
+      margin-top: 10px;
+    }
+    
+    nav .icone{
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: row;
+      list-style: none;
+      margin-top: 10px;
+    }
+  
+    
+    nav .rs{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    }
+    
+    footer{
+      
+      color: whitesmoke;
+      font-size: 14px;
+    }
+    
+    footer ul{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      list-style: none;
+      align-items: center;
+    }
+    
+    footer .icone{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+    }
+    
+    .footer{
+      background-color: #99333391;
+    }
+    
+    footer li{
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    
+    footer .rs{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    
+    footer .rs2{
+      width: 40px;
+      height: 30px;
+      display: flex;
+      flex-direction: row;
+      margin-right: -12px;
+      }
+
+      /* partie perso CSS */
+      body  {
+        background: url('https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fpngimage.net%2Fwp-content%2Fuploads%2F2018%2F06%2Ftarantino-png-1.png') no-repeat 1% 75%;
+        background-attachment: fixed;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: bottom;
+    }
