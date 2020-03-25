@@ -31,11 +31,11 @@ div.blocOpaque { /* Astuce de création d'un bloc à 90% opaque à l'image de fo
     padding: -10px ;
     filter:Alpha(opacity=100);-moz-opacity:0.90;opacity: 0.90; 
   }
-.affiche {
+  .affiche {
     max-width: 150px;
     height : auto;
     float :left;
-    align-content: flex-start;
+    align-content: center;
 }
  p {
     float: left;
@@ -62,24 +62,26 @@ div.blocOpaque { /* Astuce de création d'un bloc à 90% opaque à l'image de fo
     color : white;
     margin: 50px;
 }
-.boxfilm p {
+.card p {
     display : flex;
     flex-direction: row;
     align-items: flex-start;
     margin : 20px;
     max-width:  90%;
     text-align:justify;
+    overflow: scroll;
 }
 .alignerimgtext{
     display: flex;
     flex-direction : row ;
     justify-content: left;
 }
-.boxfilm{
+.card{
     display: flex;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width : 35%;
+    width : 20%;
     height: auto;
     margin: 30px;
     padding: 20px;
@@ -90,15 +92,16 @@ div.blocOpaque { /* Astuce de création d'un bloc à 90% opaque à l'image de fo
     outline:none;
     box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
 }
-.boxfilm:hover{
+.card:hover{
     transition:all .7s ease;
     box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
 }
 .toutBloc{
     display : flex;
-    flex-direction : row ;
+    flex-direction : row;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
     margin: -50px;
     padding : 10px;
 }
@@ -107,4 +110,17 @@ iframe{
     vertical-align: bottom;
     width : 350px;
     height : 200px;
+}
+
+video#video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;git 
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
 }
