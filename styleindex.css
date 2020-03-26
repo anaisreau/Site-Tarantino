@@ -1,7 +1,7 @@
 html{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+/* Debut code css new header */
 header{
   max-width: 100%;
   display: flex;
@@ -208,6 +208,8 @@ ul {
 .toolbar input[type="search"]::-moz-placeholder { color: #fff; opacity: 1; }
 .toolbar input[type="search"]:-moz-placeholder { color: #fff; opacity: 1; }
 .toolbar input[type="search"]:-ms-input-placeholder { color: #fff; }
+
+/* Fin code css new header */
 
 footer{
   
@@ -545,7 +547,8 @@ img {
 /* CSS FOR MOBILE AND TABLETS */
 
 @media screen and (max-width : 900px) {
-.desktop{
+/* Debut code css new header mobile */
+  .desktop{
   max-width: 100%;
   display: none;
 }
@@ -632,7 +635,7 @@ img {
 body {
   width: auto;
 }
-
+/* Fin code css new header mobile */
 img{
   display: none;
 }
