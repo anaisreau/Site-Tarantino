@@ -64,14 +64,12 @@
       </ul>
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
+    
   </div> 
-
-
-  </div>
-
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
@@ -435,33 +433,49 @@
               </div>
             </div>
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
+<script type="text/javascript">
+    // <!-- Debut fonction JS pour header -->
+     ( function() {
+
+    $('#btn-search').on('click', function(e) {
+
+    e.preventDefault();
+    $('#search').animate({width: 'toggle'}).focus();
+
+});
+
+} () );
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 
+//  <!-- Fin fonction js pour header-->
+</script>
 </body>
 
-    <footer>
-        <div>
-            <ul>
-                <li>Mentions légales</li>
-                <li>Ressources</li>
-                <li>Contact</li>
-                <li>A Propos</li>
-            </ul>
+<footer>
+    <div>
+        <ul class="footer">
+            <li>Mentions légales</li>
+            <li>Ressources</li>
+            <li>Contact</li>
+            <li>A Propos</li>
+        </ul>
 
-            <ul class="icone">
-                <li><a href="https://zupimages.net/viewer.php?id=20/11/ebs8.jpg"><img
-                            src="https://zupimages.net/up/20/11/ebs8.jpg" alt="" / class="rs"></a></li>
-                <li><a href="https://zupimages.net/viewer.php?id=20/11/bt6n.jpg"><img
-                            src="https://zupimages.net/up/20/11/bt6n.jpg" alt="" / class="rs"></a></li>
-                <li><a href="https://zupimages.net/viewer.php?id=20/11/m6l4.jpg"><img
-                            src="https://zupimages.net/up/20/11/m6l4.jpg" alt="" / class="rs"></a></li>
-            </ul>
-        </div>
-
-    </footer>
-
-    <script src="filmo.js"></script>
-    </body>
+        <ul class="icone">
+            <li><a href="https://zupimages.net/viewer.php?id=20/11/ivfe.png"><img src="https://zupimages.net/up/20/11/ivfe.png" alt="" class="rs"></a></li>
+            <li><a href="https://zupimages.net/viewer.php?id=20/05/dpei.png"><img src="https://zupimages.net/up/20/05/dpei.png" alt="" class="rs"></a></li>
+            <li><a href="https://zupimages.net/viewer.php?id=20/08/gnvm.png"><img src="https://zupimages.net/up/20/08/gnvm.png" alt="" class="rs2"></a></li> 
+        </ul>
+    </div>
+    
+      
+</footer>
+    
 </html>
