@@ -1,35 +1,8 @@
+
+
 html{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-
-
-header{
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-left : 80px;
-    
-  }.qt{
-    height: 50px;
-    width: auto;
-    justify-content: space-between;
-    display: flex;
-    margin-top: 55px;
-  }
-  
-  .tarantino{
-  margin-top: 60px;
-  height: 40px;
-  width: auto;
-  }
-  
-  .logo{
-  display: flex;
-  width: 150px;
-  height: 150px;
-  justify-content: center;
-  margin-top: 10px;}
-
+    }
 
 
 body h1{
@@ -44,10 +17,13 @@ h2{
 body { /* Pour l'image de fond... */
     background: url('https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fpngimage.net%2Fwp-content%2Fuploads%2F2018%2F06%2Ftarantino-png-1.png') no-repeat 1% 75%; 
     background-attachment: fixed; 
+    background-position-x: center;
+    background-position-y: bottom;
     vertical-align: baseline;
     filter:Alpha(opacity=100);-moz-opacity:1;opacity: 1; 
+   
 }
-  div.blocOpaque { /* Astuce de création d'un bloc à 90% opaque à l'image de fond */
+div.blocOpaque { /* Astuce de création d'un bloc à 90% opaque à l'image de fond */
     width:100%;
     height:100%;
     margin:0px 0px;
@@ -56,8 +32,8 @@ body { /* Pour l'image de fond... */
     filter:Alpha(opacity=100);-moz-opacity:0.90;opacity: 0.90; 
   }
 .affiche {
-    max-width: 100px;
-    height : 150px;
+    max-width: 150px;
+    height : auto;
     float :left;
     align-content: flex-start;
 }
@@ -128,6 +104,7 @@ body { /* Pour l'image de fond... */
 }
 iframe{
     margin: auto;
+    vertical-align: bottom;
     width : 350px;
     height : 200px;
 }
