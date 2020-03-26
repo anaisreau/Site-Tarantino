@@ -10,6 +10,10 @@ header{
   
 }
 
+.topnav {
+  display: none;
+}
+
 .qt{
   height: 50px;
   width: auto;
@@ -22,12 +26,15 @@ header{
 margin-top: 60px;
 height: 40px;
 width: auto;
-}.logo{
+}
+
+.logo{
 display: flex;
 width: 150px;
 height: 150px;
 justify-content: center;
-margin-top: 10px;}
+margin-top: 10px;
+}
 
 nav{
   color: whitesmoke;
@@ -61,12 +68,146 @@ nav{
 }
 
 nav .rs{
-width: 25px;
-height: 25px;
-display: flex;
-flex-direction: row;
-margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  } 
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+a[class*="fontawesome-"]:before,
+span[class*="fontawesome-"]:before {
+	display: block;
+	
+	-webkit-font-smoothing: antialiased;
 }
+
+/* ---------- GENERAL ---------- */
+
+body {
+	background: #ccc;
+	font: 'Impact', sans-serif;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: #993333;
+  opacity: 0,5;
+}
+
+button {
+    -webkit-appearance: button;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 100%;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+}
+
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* ---------- CLASSES ---------- */
+
+.clearfix { *zoom: 1; }
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;	
+}
+.clearfix:after { clear: both; }
+
+
+
+/* ---------- TOOLBAR ---------- */
+
+.toolbar {
+	color: #fff;
+}
+
+.toolbar li {
+	float: left;
+}
+
+.toolbar a,
+.toolbar input[type="search"],
+.toolbar button {
+	background: #99333320;
+	color: #fff;
+	display: block;
+	padding: 17px;
+	position: relative;
+}
+
+.toolbar a:hover,
+.toolbar input[type="search"]:hover,
+.toolbar input[type="search"]:focus,
+.toolbar button:hover {
+  background-color: #993333;
+  opacity: 0.5;
+}
+
+.toolbar input[type="search"] {
+	display: none;
+	height: 25px;
+	width: 177px;
+}
+
+.toolbar input[type="search"]::-webkit-input-placeholder { color: #fff; }
+.toolbar input[type="search"]::-moz-placeholder { color: #fff; opacity: 1; }
+.toolbar input[type="search"]:-moz-placeholder { color: #fff; opacity: 1; }
+.toolbar input[type="search"]:-ms-input-placeholder { color: #fff; }
 
 footer{
   
@@ -126,8 +267,8 @@ footer .rs2{
 }
 
 img {
-    width: 100%;
-    height: 600px;
+    width: 880px;
+    height: auto;
 
 }
 
@@ -307,6 +448,89 @@ img {
 /* CSS FOR MOBILE AND TABLETS */
 
 @media screen and (max-width : 900px) {
+.desktop{
+  max-width: 100%;
+  display: none;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  }
+  
+  .qt{
+    height: 18px;
+    width: auto;
+    margin-top: 24px;
+    margin-left: 5px;
+  }
+  
+  .tarantino{
+  height: 16px;
+  width: auto;
+  margin-top: 25px;
+  margin-left: 5px;
+  }
+
+  .icone{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+  }
+  
+  .rs{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    }
+  
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    background-color: #ccc;
+    position: relative;
+    display: flex;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    margin-left: -250px;
+    margin-top: 50px;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 17px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #993333;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
 
 body {
   width: auto;
