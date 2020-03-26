@@ -4,31 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styleindex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
-<header>
-    <a href="https://zupimages.net/viewer.php?id=20/11/2onb.png"><img src="https://zupimages.net/up/20/11/2onb.png"
-            alt="" class="qt"></a>
-    <a href="https://zupimages.net/viewer.php?id=20/11/m5p8.png"><img src="https://zupimages.net/up/20/11/m5p8.png"
-            alt="" class="logo"></a>
-    <a href="https://zupimages.net/viewer.php?id=20/11/8y96.png"><img src="https://zupimages.net/up/20/11/8y96.png"
-            alt="" class="qt tarantino"></a>
-</header>
-<body>
-    <nav>
-        <ul class="menu">
-            <li id="menu"><a class="liens" href="index.html">Accueil</a> </li>
-            <li id="menu"><a class="liens" href="biographie.html"> Biographie</a> </li>
-            <li id="menu"><a class="liens" href="filmographie.html"> Filmographie</a></li>
-            <li id="menu"><a class="liens" href="galerie.html"> Galerie</a> </li>
-    </ul>
-        <ul class="icone">
-            <li><a href="https://zupimages.net/viewer.php?id=20/11/80cx.png"><img src="https://zupimages.net/up/20/11/80cx.png" alt="" class="rs"></a></li>
-            <li><a href="https://zupimages.net/viewer.php?id=20/11/0hby.png"><img src="https://zupimages.net/up/20/11/0hby.png" alt="" class="rs"></a></li>
-            <li><a href="https://zupimages.net/viewer.php?id=20/11/nqb9.png"><img src="https://zupimages.net/up/20/11/nqb9.png" alt="" class="rs"></a></li>
-            <li><a href="https://zupimages.net/viewer.php?id=20/11/ry4p.png"><img src="https://zupimages.net/up/20/11/ry4p.png" alt="" class="rs"></a></li>  
-        </ul>
-    </nav> 
+    <header class="desktop">
+        <a href="https://zupimages.net/viewer.php?id=20/11/2onb.png"><img src="https://zupimages.net/up/20/11/2onb.png"
+                alt="" class="qt"><hr/></a>
+        <a href="https://zupimages.net/viewer.php?id=20/11/m5p8.png"><img src="https://zupimages.net/up/20/11/m5p8.png"
+                alt="" class="logo"></a>
+        <a href="https://zupimages.net/viewer.php?id=20/11/8y96.png"><img src="https://zupimages.net/up/20/11/8y96.png"
+                alt="" class="qt tarantino"><hr/></a>
+    </header>
+    
+    <body>
+        <!--Version desktop Menu -->
+        <nav class="desktop">
+            <ul class="menu">
+                <li id="menu"><a class="liens" href="index.html">Accueil</a></li>
+                <li id="menu"><a class="liens" href="biographie.html"> Biographie</a></li>
+                <li id="menu"><a class="liens" href="filmographie.html"> Filmographie</a></li>
+                <li id="menu"><a class="liens" href="galerie.html"> Galerie</a></li>
+                <li id="menu"><a class="liens" href="quizz.html"> Quizz</a></li>
+            </ul>
+            <div class="container">
+                <form action="javascript:void(0);" method="get">
+                    <fieldset>
+                        <ul class="toolbar clearfix">
+                            <li><a href="https://zupimages.net/viewer.php?id=20/11/80cx.png"><img src="https://zupimages.net/up/20/11/80cx.png" alt="" class="rs"></a></li>
+                            <li><a href="https://zupimages.net/viewer.php?id=20/11/0hby.png"><img src="https://zupimages.net/up/20/11/0hby.png" alt="" class="rs"></a></li>
+                            <li><a href="https://zupimages.net/viewer.php?id=20/11/nqb9.png"><img src="https://zupimages.net/up/20/11/nqb9.png" alt="" class="rs"></a></li>
+                            <li><input type="search" id="search" placeholder="Search"></li>
+                            <li><button type="submit" id="btn-search"><img src="https://zupimages.net/up/20/11/ry4p.png" alt="" class="rs"></button>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div> 
+        </nav>
+       <!-- Version mobile Menu -->
+<div class="topnav">
+    <img src="https://zupimages.net/up/20/11/m5p8.png"alt="" class="logo">
+    <img src="https://zupimages.net/up/20/11/2onb.png" alt="" class="qt">
+    <img src="https://zupimages.net/up/20/11/8y96.png" alt="" class="qt tarantino">
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="index.html">Accueil</a>
+      <a href="biographie.html">Biographie</a>
+      <a href="filmographie.html">Filmographie</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="quizz.html"> Quizz</a></li>
+      <ul class="icone">
+        <li><a href="https://zupimages.net/viewer.php?id=20/11/80cx.png"><img src="https://zupimages.net/up/20/11/80cx.png" alt="" class="rs"></a></li>
+        <li><a href="https://zupimages.net/viewer.php?id=20/11/0hby.png"><img src="https://zupimages.net/up/20/11/0hby.png" alt="" class="rs"></a></li>
+        <li><a href="https://zupimages.net/viewer.php?id=20/11/nqb9.png"><img src="https://zupimages.net/up/20/11/nqb9.png" alt="" class="rs"></a></li>
+      </ul>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+         
 
     <div class ="ban">
         <img class="banniere" alt="home" src="https://sensesofcinema.com/assets/uploads/2015/12/Feature-1.-Quentin-Tarantino-750x400.jpg">
@@ -50,7 +86,27 @@
         }
      }
      typing();
+    // <!-- Debut fonction JS pour header -->
+     ( function() {
 
+    $('#btn-search').on('click', function(e) {
+
+    e.preventDefault();
+    $('#search').animate({width: 'toggle'}).focus();
+
+});
+
+} () );
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 
+//  <!-- Fin fonction js pour header-->
     </script>
 
 
