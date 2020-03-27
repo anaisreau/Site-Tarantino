@@ -4,6 +4,26 @@ html{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.toolbar{
+    margin-right: -14px;
+}
+
+.fa{
+    display: flex;
+    justify-content: baseline;
+}
+
+a:hover{
+    color: #993333;
+    opacity: 0,5;
+    text-decoration: none;
+  }
+  
 
 body { /* Pour l'image de fond... */
     background: url('https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fpngimage.net%2Fwp-content%2Fuploads%2F2018%2F06%2Ftarantino-png-1.png') no-repeat 1% 75%; 
@@ -64,7 +84,7 @@ div.blocOpaque { /* Astuce de création d'un bloc à 90% opaque à l'image de fo
     width: 45%;
     height: 280px;
     margin: 30px;
-}.
+}
 
     .card:hover{
     transition:all .7s ease;
@@ -75,10 +95,8 @@ div.blocOpaque { /* Astuce de création d'un bloc à 90% opaque à l'image de fo
 
 .card a {
     background-color: rgb(104, 28, 15);
-    border-color: rgb(78, 24, 15)6, 41, 25);
-    display : inline ;
-    
-
+    border-color: rgb(78, 24, 15) (6, 41, 25);
+    display: inline ;
 }
 
     @media screen and (max-width: 971px) {
