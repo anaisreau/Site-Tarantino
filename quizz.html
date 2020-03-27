@@ -8,10 +8,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="stylequizz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
     <!-- fav icon -->
     <link rel="shortcut icon" type="mage/png"
         href="https://cdn.imgbin.com/4/9/12/imgbin-quentin-tarantino-blu-ray-disc-reservoir-dogs-dvd-film-channing-tatum-tarantino-poster-5FQFVDj1iSv793E8WMyD6w6v9.jpg">
     <title>Quizz</title>
+    <!-- liens pour animation-->  
+    <style>
+
+  </style>
 </head>
 <header>
     <a href="https://zupimages.net/viewer.php?id=20/11/2onb.png"><img src="https://zupimages.net/up/20/11/2onb.png"
@@ -51,17 +56,19 @@
         </nav>
     </div>
 <div  >
-  <div id="titre" >
-      <h1 >How Much Do You Know Quentin Tarantino</h1>
-
-  </div>
+<div id="centre">
+    <div class="titre" >
+        <h1 >How Much Do You Know Quentin Tarantino</h1>
+    </div>
+</div>
   <div  class="quizz "> 
 
       <form oninput="score.value=parseInt(question1.value || 0)+parseInt(question2.value || 0)+parseInt(question3.value || 0)+parseInt(question4.value || 0)+parseInt(question5.value || 0)+parseInt(question6.value || 0)+parseInt(question7.value || 0)+parseInt(question8.value || 0)+parseInt(question9.value || 0)+parseInt(question10.value || 0)">
          <div>
-           <h1>Death Quizz 10</h1>
+           <h1 class="titre" id="deathTitle">Death Quizz 10</h1>
          </div> 
-        <div>
+         <div>
+          <div>
             <p>For Which movie Quentin TARANTINO won the "Palm d'OR"?</p>
             <input id="question1-answer1" name="question1" type="radio" value="1">
             <label for="question1-answer1">Pul Fiction</label>
@@ -132,12 +139,34 @@
                 <label for="question10-answer2">Abraham Lincoln</label>
               </div>
 
-          <p>Your score is <output name="score">0</output></p>
+         </div>
+
+          <p id="score">Your score is <output name="score">0</output></p>
         </form>
 
   </div>
 </div>
+<div>
+    <img id="train" src="https://zupimages.net/up/20/13/fpif.png">
 
+
+  <script>
+    train.onclick = function() {
+      let start = Date.now();
+
+      let timer = setInterval(function() {
+        let timePassed = Date.now() - start;
+
+        train.style.left = timePassed /3.1 + 'px';
+
+        if (timePassed > 2000) clearInterval(timer);
+
+      }, 20);
+    }
+  </script>
+
+</div>
+</body>
 <footer>
   <div>
     <ul class="footer">

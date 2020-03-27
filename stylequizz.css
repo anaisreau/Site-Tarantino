@@ -1,24 +1,29 @@
  /* Partie perso */
+ #centre{
+  display: flex;
+  justify-content: center;
+}
 
- #titre{
+.titre{
   width: 60%;
   font-size: xx-large;
   border-bottom: #993333 5px solid;
   text-align: center;
   padding-bottom: 10px;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
 
  }
- #titreQuizz{
-  width: 40%;
-  font-size: xx-large;
-  border-bottom: #993333 5px solid;
-  text-align: center;
-  padding-bottom: 10px;
-
- }
+#deathTitle{
+  font-size: 2em;
+  margin-bottom: 10%;
+}
 .quizz {
     background: url(https://zupimages.net/up/20/13/qevp.png);
- 
+    background-position-y: 50%;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 2em;
     margin-left:20% ;
     margin-right: 20%;
     margin-bottom: 5%;
@@ -29,6 +34,7 @@
     background-color: blanchedalmond;
     box-shadow: 20px 38px 34px -26px;
 }
+
 div form {
   display: flex;
   justify-content: center;
@@ -38,16 +44,27 @@ div form {
 }
 div form div p {
     font-weight: bolder;
+    color: #333333;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
 
 }
-/* input  */
-#shotgun {
-  width: 10px;
-  height: auto;
-  display: flex;
-  justify-content: center;
+div form div label{
+  color: #333333;
+  text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+
+}
+#score{
+  margin-top: 10%;
+  font-size: 2em;
+  color: #993333;
 }
 
+#train {
+  position: relative;
+  cursor: pointer;
+  width: 10%;
+  margin-bottom: 10%;
+}
  /* <! -- partie commune CSS */ 
  /* curseur */
  nav :hover {
