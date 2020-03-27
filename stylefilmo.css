@@ -4,16 +4,27 @@ html{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
 
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
 
-body h1{
-    background-color: black;
-    color : gray;
-    text-align: center;
+.toolbar{
+    margin-right: -14px;
 }
-h2{ 
-    text-align : center;
-    letter-spacing:1px;
+
+.fa{
+    display: flex;
+    justify-content: baseline;
 }
+
+a:hover{
+    color: #993333;
+    opacity: 0,5;
+    text-decoration: none;
+  }
+  
+
 body { /* Pour l'image de fond... */
     background: url('https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fpngimage.net%2Fwp-content%2Fuploads%2F2018%2F06%2Ftarantino-png-1.png') no-repeat 1% 75%; 
     background-attachment: fixed; 
@@ -23,24 +34,7 @@ body { /* Pour l'image de fond... */
     filter:Alpha(opacity=100);-moz-opacity:1;opacity: 1; 
    
 }
-div.blocOpaque { /* Astuce de création d'un bloc à 90% opaque à l'image de fond */
-    width:100%;
-    height:100%;
-    margin:0px 0px;
-    background-color:#FFFFFF;
-    padding: -10px ;
-    filter:Alpha(opacity=100);-moz-opacity:0.90;opacity: 0.90; 
-  }
-  .affiche {
-    max-width: 150px;
-    height : auto;
-    float :left;
-    align-content: center;
-}
- p {
-    float: left;
-    margin: 10px
- }
+
 
 .listeFilm ul{ 
     display : flex; 
@@ -54,73 +48,69 @@ div.blocOpaque { /* Astuce de création d'un bloc à 90% opaque à l'image de fo
     flex-wrap: wrap;
     font-size: medium;
     }
+
 .listeFilm li{
     list-style-type: none;
 }
 .listeFilm {
-    background-color: rgba(165, 42, 42, 0.678);
+    background-color: rgba(165, 42, 42, 0.411);
     color : white;
     margin: 50px;
 }
-.card p {
-    display : flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin : 20px;
-    max-width:  90%;
-    text-align:justify;
-    overflow: scroll;
-}
-.alignerimgtext{
-    display: flex;
-    flex-direction : row ;
-    justify-content: left;
-}
-.card{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    width : 20%;
-    height: auto;
-    margin: 30px;
-    padding: 20px;
-    background-color: rgba(128, 128, 128, 0.219);
-    color:rgb(0, 0, 0);
-    font-size:small;
-    letter-spacing:1px;
-    outline:none;
-    box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
-}
-.card:hover{
-    transition:all .7s ease;
-    box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
-}
-.toutBloc{
+
+
+
+div.blocOpaque { /* Astuce de création d'un bloc à 90% opaque à l'image de fond */
+    width:100%;
+    height:100%;
+    margin:0px 0px;
+    background-color:#FFFFFF;
+    padding: -10px ;
+    filter:Alpha(opacity=100);-moz-opacity:0.90;opacity: 0.90; 
+  }
+
+    .toutBloc{
     display : flex;
     flex-direction : row;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    width: 100%;
-    margin: -50px;
+    width: 80%;
+    margin: auto;
     padding : 10px;
 }
-iframe{
-    margin: auto;
-    vertical-align: bottom;
-    width : 350px;
-    height : 200px;
+
+    .card{
+    width: 45%;
+    height: 280px;
+    margin: 30px;
 }
 
-video#video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;git 
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
+    .card:hover{
+    transition:all .7s ease;
+    box-shadow:2px 8px 4px -6px hsla(0,0%,0%,.3);
+
+
+}
+
+.card a {
+    background-color: rgb(104, 28, 15);
+    border-color: rgb(78, 24, 15) (6, 41, 25);
+    display: inline ;
+}
+
+    @media screen and (max-width: 971px) {
+
+    .card{
+        width : 80%;
+        height: 230px;
+    }
+
+    .listeFilm{
+    display: none;
+    }
+
+    body{
+    background-image: none;
+    }
 }
