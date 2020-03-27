@@ -2,37 +2,71 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="http://fr.allfont.net/allfont.css?fonts=impact" rel="stylesheet" type="text/css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styleindex.css">
     <link rel="stylesheet" href="stylefilmo.css">
-    <link href="http://fr.allfont.net/allfont.css?fonts=stylo-bold" rel="stylesheet" type="text/css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
-<header>
-    <a href="https://zupimages.net/viewer.php?id=20/11/2onb.png"><img src="https://zupimages.net/up/20/11/2onb.png" alt="" class="qt"></a>
-    <a href="https://zupimages.net/viewer.php?id=20/11/m5p8.png"><img src="https://zupimages.net/up/20/11/m5p8.png" alt="" class="logo"></a>
-    <a href="https://zupimages.net/viewer.php?id=20/11/8y96.png"><img src="https://zupimages.net/up/20/11/8y96.png" alt="" class="qt tarantino"></a>
-</header>
-<body>
-    <nav>
-        <ul class="menu">
-            <li id="menu"><a class="liens" href="index.html">Accueil</a> </li>
-            <li id="menu"><a class="liens" href="biographie.html"> Biographie</a> </li>
-            <li id="menu"><a class="liens" href="filmographie.html"> Filmographie</a></li>
-            <li id="menu"><a class="liens" href="galerie.html"> Galerie</a> </li>
-    </ul>
-        <ul class="icone">
-            <li><a href="https://zupimages.net/viewer.php?id=20/11/80cx.png"><img src="https://zupimages.net/up/20/11/80cx.png" alt="" class="rs"></a></li>
-            <li><a href="https://zupimages.net/viewer.php?id=20/11/0hby.png"><img src="https://zupimages.net/up/20/11/0hby.png" alt="" class="rs"></a></li>
-            <li><a href="https://zupimages.net/viewer.php?id=20/11/nqb9.png"><img src="https://zupimages.net/up/20/11/nqb9.png" alt="" class="rs"></a></li>
-            <li><a href="https://zupimages.net/viewer.php?id=20/11/ry4p.png"><img src="https://zupimages.net/up/20/11/ry4p.png" alt="" class="rs"></a></li>  
-        </ul>
-    </nav> 
+    <header class="desktop">
+        <a href="https://zupimages.net/viewer.php?id=20/11/2onb.png"><img src="https://zupimages.net/up/20/11/2onb.png"
+                alt="" class="qt"><hr/></a>
+        <a href="https://zupimages.net/viewer.php?id=20/11/m5p8.png"><img src="https://zupimages.net/up/20/11/m5p8.png"
+                alt="" class="logo"></a>
+        <a href="https://zupimages.net/viewer.php?id=20/11/8y96.png"><img src="https://zupimages.net/up/20/11/8y96.png"
+                alt="" class="qt tarantino"><hr/></a>
+    </header>
+    
+    <body>
+        <!--Version desktop Menu -->
+        <nav class="desktop">
+            <ul class="menu">
+                <li id="menu"><a class="liens" href="index.html">Accueil</a></li>
+                <li id="menu"><a class="liens" href="biographie.html"> Biographie</a></li>
+                <li id="menu"><a class="liens" href="filmographie.html"> Filmographie</a></li>
+                <li id="menu"><a class="liens" href="galerie.html"> Galerie</a></li>
+                <li id="menu"><a class="liens" href="quizz.html"> Quizz</a></li>
+            </ul>
+            <div class="container">
+                <form action="javascript:void(0);" method="get">
+                    <fieldset>
+                        <ul class="toolbar clearfix">
+                            <li><a href="https://zupimages.net/viewer.php?id=20/11/80cx.png"><img src="https://zupimages.net/up/20/11/80cx.png" alt="" class="rs"></a></li>
+                            <li><a href="https://zupimages.net/viewer.php?id=20/11/0hby.png"><img src="https://zupimages.net/up/20/11/0hby.png" alt="" class="rs"></a></li>
+                            <li><a href="https://zupimages.net/viewer.php?id=20/11/nqb9.png"><img src="https://zupimages.net/up/20/11/nqb9.png" alt="" class="rs"></a></li>
+                            <li><input type="search" id="search" placeholder="Search"></li>
+                            <li><button type="submit" id="btn-search"><img src="https://zupimages.net/up/20/11/ry4p.png" alt="" class="rs"></button>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div> 
+        </nav>
+       <!-- Version mobile Menu -->
+<div class="topnav">
+    <img src="https://zupimages.net/up/20/11/m5p8.png"alt="" class="logo">
+    <img src="https://zupimages.net/up/20/11/2onb.png" alt="" class="qt">
+    <img src="https://zupimages.net/up/20/11/8y96.png" alt="" class="qt tarantino">
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="index.html">Accueil</a>
+      <a href="biographie.html">Biographie</a>
+      <a href="filmographie.html">Filmographie</a>
+      <a href="galerie.html">Galerie</a>
+      <a href="quizz.html"> Quizz</a></li>
+      <ul class="icone">
+        <li><a href="https://zupimages.net/viewer.php?id=20/11/80cx.png"><img src="https://zupimages.net/up/20/11/80cx.png" alt="" class="rs"></a></li>
+        <li><a href="https://zupimages.net/viewer.php?id=20/11/0hby.png"><img src="https://zupimages.net/up/20/11/0hby.png" alt="" class="rs"></a></li>
+        <li><a href="https://zupimages.net/viewer.php?id=20/11/nqb9.png"><img src="https://zupimages.net/up/20/11/nqb9.png" alt="" class="rs"></a></li>
+      </ul>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+      <i class="fa fa-bars"></i>
+    </a>
+  </div> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+         
 
-    </nav> 
 
     <div class="listeFilm">
 
@@ -40,7 +74,7 @@
 
         <ul>
 
-            
+
             <h2>2019</h2>
             <li>Once Upon a Time… in Hollywood</li>
 
@@ -95,285 +129,384 @@
             <h2>1987 </h2>
             <li>My Best Friend's Birthday</li>
         </ul>
-    </div><div class="blocOpaque">
-<div class ="toutBloc">
-
-
-
-
-
-    <div class="boxfilm">
-        <h3>Once Upon a Time… in Hollywood</h3>
-        <p>2019</p>
-        <div class ="alignerimgtext"><img class="affiche" src="http://fr.web.img3.acsta.net/c_215_290/pictures/19/07/22/08/51/0719990.jpg" alt="Once Upon a time">
-        <p>Synopsis et détails
-        Interdit aux moins de 12 ans
-        En 1969, la star de télévision Rick Dalton et le cascadeur Cliff Booth, sa doublure de longue date, poursuivent
-        leurs carrières au sein d’une industrie qu’ils ne reconnaissent plus. </p></div>
-        <iframe width="500" height="350" src="https://www.youtube.com/embed/RbMJJHCH5oc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    <div class="blocOpaque">
+
+        <div class="toutBloc">
 
 
-
-    <div class="boxfilm">
-        <h3>Les Huit salopards</h3>
-        <p>2015</p>
-        <div class ="alignerimgtext"> <img class="affiche" src="http://fr.web.img6.acsta.net/c_215_290/pictures/15/10/09/16/46/255916.jpg" alt="Les 8 Salopards"></p>
-        <p>Synopsis et détails
-            Interdit aux moins de 12 ans avec avertissement²
-            Quelques années après la Guerre de Sécession, le chasseur de primes John Ruth, dit Le Bourreau, fait route
-            vers
-            Red Rock, où il conduit sa prisonnière
-            Daisy Domergue se faire pendre. Sur leur route, ils rencontrent le Major Marquis Warren, un ancien soldat
-            lui
-            aussi devenu chasseur de primes, et Chris Mannix,
-            le nouveau shérif de Red Rock. Surpris par le blizzard, ils trouvent refuge dans une auberge au milieu des
-            montagnes, où ils sont accueillis par quatre personnages
-            énigmatiques : le confédéré, le mexicain, le cowboy et le court-sur-pattes. Alors que la tempête s’abat
-            au-dessus du massif, l’auberge va abriter une série de tromperies
-            et de trahisons. L’un de ces huit salopards n’est pas celui qu’il prétend être ; il y a fort à parier que
-            tout
-            le monde ne sortira pas vivant de l’auberge de Minnie… </p></div>
-        <iframe width="500" height="350" src="https://www.youtube.com/embed/cM0WxEv5mwg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-
-
-        <div class="boxfilm">
-            <h3>Django Unchained</h3>
-                <p>2012</p>
-                <div class ="alignerimgtext"><img class="affiche" src="http://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/90/08/59/20366454.jpg" alt="Django">
-               <p> Synopsis et détails
-                Interdit aux moins de 12 ans
-                Dans le sud des États-Unis, deux ans avant la guerre de Sécession, le Dr King Schultz, un chasseur
-                de primes
-                allemand, fait l’acquisition de Django, un esclave qui
-                peut l’aider à traquer les frères Brittle, les meurtriers qu’il recherche. Schultz promet à Django
-                de lui rendre
-                sa liberté lorsqu’il aura capturé les Brittle – morts ou vifs.
-                Alors que les deux hommes pistent les dangereux criminels, Django n’oublie pas que son seul but est
-                de retrouver
-                Broomhilda, sa femme, dont il fut séparé à cause du
-                commerce des esclaves…
-                Lorsque Django et Schultz arrivent dans l’immense plantation du puissant Calvin Candie, ils éveillent les
-                soupçons de Stephen, un esclave qui sert Candie et a toute
-                sa confiance. Le moindre de leurs mouvements est désormais épié par une dangereuse organisation de
-                plus en plus
-                proche… Si Django et Schultz veulent espérer s’enfuir
-                avec Broomhilda, ils vont devoir choisir entre l’indépendance et la solidarité, entre le sacrifice et la survie…</p></div>
-            <iframe width="500" height="350" src="https://www.youtube.com/embed/K2XjgsfzDrU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-
-        <div class="boxfilm">
-            <h3>Inglorious Basterds</h3>
-            <p>2012</p>
-            <div class ="alignerimgtext">           <img class="affiche" src="http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/70/45/22/19123474.jpg" alt="Inglorious Basterds">
-               <p> Synopsis et détails
-                Interdit aux moins de 12 ans
-                Dans la France occupée de 1940, Shosanna Dreyfus assiste à l'exécution de sa famille tombée entre les
-                mains du
-                colonel nazi Hans Landa. Shosanna s'échappe de
-                justesse et s'enfuit à Paris où elle se construit une nouvelle identité en devenant exploitante d'une
-                salle de
-                cinéma.
-                Quelque part ailleurs en Europe, le lieutenant Aldo Raine forme un groupe de soldats juifs américains
-                pour mener
-                des actions punitives particulièrement sanglantes
-                contre les nazis. "Les bâtards", nom sous lequel leurs ennemis vont apprendre à les connaître, se
-                joignent à
-                l'actrice allemande et agent secret Bridget von Hammersmark
-                pour tenter d'éliminer les hauts dignitaires du Troisième Reich. Leurs destins vont se jouer à l'entrée
-                du
-                cinéma où Shosanna est décidée à mettre à exécution une
-                vengeance très personnelle... </p></div> 
-            <iframe width="500" height="350" src="https://www.youtube.com/embed/BiPUoLI9eGM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-        <div class="boxfilm">
-            <h3>Boulevard de la Mort </h3>
-            <p>2007</p>
-            <div class ="alignerimgtext"><img class="affiche" src="http://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/62/88/98/18766087.jpg" alt="Boulevard de la Mort">
-            <p>Synopsis et détails
-                Interdit aux moins de 12 ans
-                C'est à la tombée du jour que Jungle Julia, la DJ la plus sexy d'Austin, peut enfin se détendre avec ses
-                meilleures copines, Shanna et Arlene. Ce TRIO INFERNAL,
-                qui vit la nuit, attire les regards dans tous les bars et dancings du Texas. Mais l'attention dont ces trois
-                jeunes femmes sont l'objet n'est pas forcément innocente.
-                C'est ainsi que Mike, cascadeur au visage balafré et inquiétant, est sur leurs traces, tapi dans sa voiture
-                indestructible. Tandis que Julia et ses copines
-                sirotent leurs bières, Mike fait vrombir le moteur de son bolide menacant...</p></div>
-            <iframe width="500" height="350" src="https://www.youtube.com/embed/Oqn56R_gS1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        
-
-
-        <div class="boxfilm">
-            <h3>Double Feature: Grindhouse</h3>
-            <p>2007</p> 
-            <div class ="alignerimgtext"><img class="affiche" src="http://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/64/19/34/18758592.jpg" alt="Double Feature Grindhouse">
-            <p>Synopsis et détails
-                Un diptyque déjanté, hommage aux films d'exploitation et aux doubles-programmes des années 70, composé
-                de Grind
-                House - 1ère séance : Deathproof de Quentin
-                Tarantino et Grind House - 2ème séance : Planet Terror de Robert Rodriguez. Le film est sorti en une
-                seule
-                partie aux Etats-Unis, au Canada, en Angleterre et en
-                Australie, et en deux parties dans les pays non-anglophones. </p></div>
-            <iframe width="500" height="350" src="https://www.youtube.com/embed/j1cjXKdox0M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-        <div class="boxfilm">
-            <h3>Sin city</h3>
-            <p>2007</p>
-            <div class ="alignerimgtext"><img class="affiche" src="http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/35/52/23/18425334.jpg" alt="Sin city">
-<p>Synopsis et détails
-                Interdit aux moins de 12 ans
-                Sin City est une ville infestée de criminels, de flics ripoux et de femmes fatales. Hartigan s'est juré
-                de
-                protéger Nancy, une strip-teaseuse qui l'a fait craquer.
-                Marv, un marginal brutal mais philosophe, part en mission pour venger la mort de son unique véritable
-                amour,
-                Goldie. Dwight est l'amant secret de Shellie.
-                Il passe ses nuits à protéger Gail et les filles des bas quartiers de Jackie Boy, un flic pourri,
-                violent et
-                incontrôlable. Certains ont soif de vengeance,
-                d'autres recherchent leur salut. Bienvenue à Sin City, la ville du vice et du péché. </p></div>
-            <iframe width="500" height="350" src="https://www.youtube.com/embed/u6lhaNtpg4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-        <div class="boxfilm">
-            <h3>Kill Bill Volume 2</h3>
-            <p>2004</p>
-            <div class ="alignerimgtext"><img class="affiche" src="http://fr.web.img4.acsta.net/c_215_290/medias/nmedia/18/35/13/45/18377926.jpg" alt="Kill Bill Vol 2">
-            <p>Synopsis et détails Interdit aux moins de 12 ans
-                Après s'être débarrassée de ses anciennes collègues Vernita Green et O-Ren Ishii, la Mariée poursuit sa
-                quête
-                vengeresse. Il lui reste à régler le sort
-                de Budd puis de Elle Driver avant d'atteindre le but ultime : tuer Bill. </p></div>
-            <iframe width="500" height="350" src="https://www.youtube.com/embed/49mioQd2yQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-        <div class="boxfilm">
-            <h3>Kill Bill Volume 1</h3>
-            <p>2003</p>
-            <div class ="alignerimgtext"><img class="affiche" src="http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/13/44/18364816.jpg" alt="Kill Bill Volume 1">
-            <p>Synopsis et détails
-                Interdit aux moins de 16 ans
-                Au cours d'une cérémonie de mariage en plein désert, un commando fait irruption dans la chapelle et tire
-                sur les
-                convives. Laissée pour morte,
-                la Mariée enceinte retrouve ses esprits après un coma de quatre ans.
-                Celle qui a auparavant exercé les fonctions de tueuse à gages au sein du Détachement International des
-                Vipères
-                Assassines n'a alors plus qu'une seule
-                idée en tête : venger la mort de ses proches en éliminant tous les membres de l'organisation criminelle,
-                dont
-                leur chef Bill qu'elle se réserve pour la fin. </p></div>
-            <iframe width="500" height="350" src="https://www.youtube.com/embed/zIab-33tEyg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-        <div class="boxfilm">
-            <h3>Jackie Brown</h3>
-            <p>1997</p>
-            <div class ="alignerimgtext"><img class="affiche" src="http://fr.web.img6.acsta.net/c_215_290/medias/04/05/00/040500_af.jpg" alt="Jackie Brown">
-            <p>Synopsis et détails
-                Jackie Brown, hôtesse de l'air, arrondit ses fins de mois en convoyant de l'argent liquide pour le
-                compte d'un
-                trafiquant d'armes, Ordell Robbie.
-                Un jour, un agent federal et un policier de Los Angeles la cueillent à l'aéroport. Ils comptent sur elle
-                pour
-                faire tomber le trafiquant. Jackie échafaude
-                alors un plan audacieux pour doubler tout le monde lors d'un prochain transfert qui porte sur la modeste
-                somme
-                de cinq cent mille dollars.
-                Mais il lui faudra compter avec les complices d'Ordell, qui ont des méthodes plutôt expéditives.</p></div>
-            <iframe width="500" height="350" src="https://www.youtube.com/embed/7TnOf2AWRMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
-        </div>
-
-        <div class="boxfilm">
-            <h3>Groom Service</h3>
-            <p>1995</p>
-            <div class ="alignerimgtext"><img class="affiche" src="http://fr.web.img5.acsta.net/c_215_290/pictures/14/08/26/15/47/004420.jpg"
-                    alt="Groom Service"><p>Synopsis et détails
-                Le groom d'un hôtel de luxe présente quatre histoires, se passant dans quatre chambres différentes.
-                The missing ingredient : des sorcières tentent d'invoquer l'esprit de la déesse Diana.
-                The wrong man : un homme armé séquestre sa femme.
-                The misbehavers : un gangster, sa femme et ses deux enfants logent dans une chambre.
-                The man from Hollywood : un acteur arrogant a organisé une fête. </p></div>
-            <iframe width="500" height="350" src="https://www.youtube.com/embed/JtArEBG_u2k" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            
-        </div>
-
-        <div class="boxfilm">
-            <h3>Pulp Fiction</h3>
-            <p>1994</p>
-            <div class ="alignerimgtext"><img class="affiche" src="http://fr.web.img5.acsta.net/c_215_290/medias/nmedia/18/36/02/52/18846059.jpg" alt="Pulp Fiction">
-            <p>Synopsis et détails
-                Interdit aux moins de 12 ans
-                L'odyssée sanglante et burlesque de petits malfrats dans la jungle de Hollywood à travers trois
-                histoires qui
-                s'entremêlent. </p></div>
-            <iframe width="500" height="350" src="https://www.youtube.com/embed/gjAJnzTPltc" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            
-        </div>
-
-        <div class="boxfilm">
-            <h3>Reservoir Dog</h3>
-            <p>1992</p>
-            <div class ="alignerimgtext"><img class="affiche" src="http://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/35/49/60/18869530.jpg" alt="Reservoir Dog">
-            <p>Synopsis et détails
-                Interdit aux moins de 16 ans
-                Après un hold-up manqué, des cambrioleurs de haut vol font leurs comptes dans une confrontation
-                violente, pour
-                découvrir lequel d'entre eux les a trahis. </p></div>
-            <iframe width="500" height="350" src="https://www.youtube.com/embed/LVmYxYdTi5w" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            
-        </div>
-
-        <div class="boxfilm">
-            <h3>My Best Friend's Birthday</h3>
-            <p>1994</p>
- 
-            <div class ="alignerimgtext"><img class="affiche" src="http://fr.web.img4.acsta.net/c_215_290/medias/nmedia/18/72/24/47/19636241.jpg"
-                    alt="My Best Friend's Birthday"><p>Synopsis et détails
-                C'est l'histoire de Mickey Burnett, un homme abandonné par sa petite amie le jour de son anniversaire.
-                Son
-                meilleur ami, Clarence Pool va alors tout faire
-                pour lui faire passer la meilleure journée de sa vie. </p></div>
-            <iframe width="500" height="350" src="https://www.youtube.com/embed/-JuYfrYLMbo" frameborder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            
-        </div>
-    </div>
-</div>
-
-        <footer>
-            <div>
-                <ul>
-                    <li>Mentions légales</li>
-                    <li>Ressources</li>
-                    <li>Contact</li>
-                    <li>A Propos</li>
-                </ul>
-
-                <ul class="icone">
-                    <li><a href="https://zupimages.net/viewer.php?id=20/11/ebs8.jpg"><img
-                                src="https://zupimages.net/up/20/11/ebs8.jpg" alt="" / class="rs"></a></li>
-                    <li><a href="https://zupimages.net/viewer.php?id=20/11/bt6n.jpg"><img
-                                src="https://zupimages.net/up/20/11/bt6n.jpg" alt="" / class="rs"></a></li>
-                    <li><a href="https://zupimages.net/viewer.php?id=20/11/m6l4.jpg"><img
-                                src="https://zupimages.net/up/20/11/m6l4.jpg" alt="" / class="rs"></a></li>
-                </ul>
+            <div class="card">
+                <img src="http://fr.web.img3.acsta.net/c_215_290/pictures/19/07/22/08/51/0719990.jpg" class="affiche"
+                    alt="Once Upon a time">
+                <div class="card-body">
+                    <h5 class="card-title">Once Upon a Time… in Hollywood</h5>
+                    <p class="card-text">Synopsis and details
+                        Prohibited for children under 12
+                        In 1969 television star Rick Dalton and stuntman Cliff Booth, his longtime understudy, sued
+                        their careers in an industry they no longer recognize.</p>
+                    <a href="#" class="btn btn-primary">See the trailer</a>
+                    <template><iframe class="video" src="https://www.youtube.com/embed/cM0WxEv5mwg" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></template>
+                </div>
             </div>
 
-        </footer>
+
+
+            <div class="card">
+                <img src="http://fr.web.img6.acsta.net/c_215_290/pictures/15/10/09/16/46/255916.jpg" class="affiche"
+                    alt="The Hateful Eight">
+                <div class="card-body">
+                    <h5 class="card-title">The Hateful Eight</h5>
+                    <p class="card-text">
+                        Synopsis and details
+                        Prohibited for children under 12 with warning²
+                        A few years after the Civil War, bounty hunter John Ruth, known as Le Bourreau, set sail
+                        towards
+                        Red Rock, where he leads his prisoner
+                        Daisy Domergue to be hanged. On their way, they meet Major Marquis Warren, a former soldier
+                        him
+                        also become a bounty hunter, and Chris Mannix,
+                        the new sheriff of Red Rock. Surprised by the blizzard, they find refuge in an inn in the
+                        midst of
+                        mountains, where they are greeted by four characters
+                        enigmatic: the Confederate, the Mexican, the cowboy and the court-sur-paws. As the storm
+                        hits
+                        above the massif, the hostel will house a series of deceptions
+                        and betrayals. One of these eight bastards is not who he claims to be; it's a safe bet that
+                        all
+                        the world will not come out of Minnie's inn alive ....</p>
+                    <a href="#" class="btn btn-primary">See the trailer</a>
+                    <template><iframe width="500" height="350" src="https://www.youtube.com/embed/cM0WxEv5mwg"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>></template>
+                </div>
+            </div>
+        
+        <div class="card">
+            <img src="http://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/90/08/59/20366454.jpg" class="affiche"
+                alt="Django">
+            <div class="card-body">
+                <h5 class="card-title">Django Unchained</h5>
+                <p class="card-text">
+                    Synopsis and details
+                    Prohibited for children under 12
+                    In the southern United States, two years before the Civil War, Dr. King Schultz, a
+                    hunter
+                    bonuses
+                    German, acquires Django, a slave who
+                    can help him track down the Brittle brothers, the murderers he's looking for. Schultz promises to
+                    Django
+                    to give it back
+                    his freedom when he captures the Brittle - dead or alive.
+                    While the two men track down the dangerous criminals, Django does not forget that his only goal
+                    East
+                    to find
+                    Broomhilda, his wife, from whom he was separated because of
+                    slave trade…
+                    When Django and Schultz arrive in the immense plantation of the powerful Calvin Candie, they
+                    awaken them
+                    suspicion of Stephen, a slave who serves Candie and has all
+                    Her confidence. The slightest of their movements is now watched by a dangerous organization
+                    of
+                    more and more
+                    close… If Django and Schultz want to hope to escape
+                    with Broomhilda, they will have to choose between independence and solidarity, between
+                    sacrifice and survival…</p>
+                <a href="#" class="btn btn-primary">See the trailer</a>
+                <template><iframe width="500" height="350" src="https://www.youtube.com/embed/K2XjgsfzDrU"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></template>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/70/45/22/19123474.jpg" class="affiche"
+                alt="Inglorious">
+            <div class="card-body">
+                <h5 class="card-title">Inglorious Basterds</h5>
+                <p class="card-text">
+                    Synopsis and details
+                    Prohibited for children under 12
+                    In occupied France in 1940, Shosanna Dreyfus attends the execution of her fallen family
+                    between the
+                    hands of
+                    Nazi colonel Hans Landa. Shosanna escapes from
+                    aptly and fled to Paris where she built a new identity by becoming an operator
+                    of a
+                    room
+                    cinema.
+                    Somewhere else in Europe, Lieutenant Aldo Raine trains a group of Jewish soldiers
+                    american
+                    to lead
+                    particularly bloody punitive actions
+                    against the Nazis. "Bastards", the name by which their enemies will get to know them,
+                    is
+                    join
+                    German actress and secret agent Bridget von Hammersmark
+                    to try to eliminate the high dignitaries of the Third Reich. Their destinies will be played out
+                    the entrance
+                    of
+                    cinema where Shosanna is determined to carry out a
+                    very personal revenge ...</p>
+                <a href="#" class="btn btn-primary">See the trailer</a>
+                <template><iframe width="500" height="350" src="https://www.youtube.com/embed/BiPUoLI9eGM"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></template>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="http://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/62/88/98/18766087.jpg" class="affiche"
+                alt="Deathproof">
+            <div class="card-body">
+                <h5 class="card-title">Death Proof</h5>
+                <p class="card-text">
+                    Synopsis and details
+                    Prohibited for children under 12
+                    Jungle Julia, Austin's sexiest DJ, can finally relax at dusk
+                    with its
+                    best friends, Shanna and Arlene. This INFERNAL TRIO,
+                    who lives at night, attracts attention in all the bars and dance halls of Texas. But the attention
+                    including these three
+                    young women are the object is not necessarily innocent.
+                    This is how Mike, a stuntman with a scarred and disturbing face, is on their tracks, lurking in
+                    his car
+                    indestructible. While Julia and her friends
+                    are sipping their beers, Mike makes the engine of his threatening racing car roar ...</p>
+                <a href="#" class="btn btn-primary">See the trailer</a>
+                <template><iframe width="500" height="350" src="https://www.youtube.com/embed/Oqn56R_gS1o"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></template>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="http://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/62/88/98/18766087.jpg" class="affiche"
+                alt="Deathproof">
+            <div class="card-body">
+                <h5 class="card-title">Double Feature: Grindhouse</h5>
+                <p class="card-text">
+                    Synopsis and details
+                    A crazy diptych, a tribute to exploitation films and double programs from the 70s,
+                    compose
+                    from Grind
+                    Home - 1st session: Quentin Deathproof
+                    Tarantino and Grind House - 2nd session: Planet Terror by Robert Rodriguez. The movie came out in
+                    a
+                    alone
+                    gone to the United States, Canada, England and
+                    Australia, and in two parts in non-English speaking countries..</p>
+                <a href="#" class="btn btn-primary">See the trailer</a>
+                <template><iframe width="500" height="350" src="https://www.youtube.com/embed/j1cjXKdox0M" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></template>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/35/52/23/18425334.jpg" class="affiche"
+                alt="sincity">
+            <div class="card-body">
+                <h5 class="card-title">Sin city</h5>
+                <p class="card-text">
+                    Synopsis and details
+                    Prohibited for children under 12
+                    Sin City is a city infested with criminals, rogue cops and fatal women. Hartigan
+                    swore
+                    of
+                    protect Nancy, a stripper who made her crack.
+                    Marv, a brutal but philosopher marginal, goes on a mission to avenge the death of his only
+                    true
+                    love,
+                    Goldie. Dwight is Shellie's secret lover.
+                    He spends his nights protecting Gail and the girls in the slums of Jackie Boy, a cop
+                    rotten,
+                    violent and
+                    uncontrollable. Some are thirsty for revenge,
+                    others seek salvation. Welcome to Sin City, the city of vice and sin..</p>
+                <a href="#" class="btn btn-primary">See the trailer</a>
+                <template><iframe width="500" height="350" src="https://www.youtube.com/embed/u6lhaNtpg4I" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></template>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="http://fr.web.img2.acsta.net/c_215_290/medias/nmedia/18/35/52/23/18425334.jpg" class="affiche"
+                alt="killbill2">
+            <div class="card-body">
+                <h5 class="card-title">Kill Bill Volume 2</h5>
+                <p class="card-text">
+                    Synopsis and details Prohibited for children under 12
+                    After getting rid of her former colleagues Vernita Green and O-Ren Ishii, the Bride
+                    continues its
+                    quest
+                    vengeful. He still has to settle the fate
+                    Budd then Elle Driver before reaching the ultimate goal: killing Bill.</p>
+                <a href="#" class="btn btn-primary">See the trailer</a>
+                <template><iframe width="500" height="350" src="https://www.youtube.com/embed/49mioQd2yQY" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></template>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="http://fr.web.img3.acsta.net/c_215_290/medias/nmedia/18/35/13/44/18364816.jpg" class="affiche"
+                alt="killbill1">
+            <div class="card-body">
+                <h5 class="card-title">Kill Bill Volume 1</h5>
+                <p class="card-text">
+                    Synopsis and details
+                    Forbidden to under 16s
+                    During a wedding ceremony in the middle of the desert, a commando burst into the chapel
+                    and shoot
+                    on the
+                    guests. Left for dead,
+                    the pregnant Bride recovers after a coma of four years.
+                    The one who previously worked as a contract killer with the Detachment
+                    International of
+                    Vipers
+                    Assassines then has only one
+                    idea in mind: avenge the death of loved ones by eliminating all members of the organization
+                    criminal,
+                    whose
+                    their chief Bill whom she reserves for the end.</p>
+                <a href="#" class="btn btn-primary">See the trailer</a>
+                <template><iframe width="500" height="350" src="https://www.youtube.com/embed/zIab-33tEyg" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></template>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="http://fr.web.img6.acsta.net/c_215_290/medias/04/05/00/040500_af.jpg" class="affiche"
+                alt="Jackie Brown">
+            <div class="card-body">
+                <h5 class="card-title">Jackie Brown</h5>
+                <p class="card-text">
+                    Synopsis and details
+                    Jackie Brown, stewardess, makes ends meet by delivering cash for
+                    the
+                    account of a
+                    arms dealer, Ordell Robbie.
+                    One day, a federal agent and a Los Angeles police officer picked her up at the airport. They are counting
+                    on her
+                    for
+                    bring down the trafficker. Jackie scaffold
+                    so a daring plan to overtake everyone in a next transfer that involves the
+                    modest
+                    sum
+                    five hundred thousand dollars.
+                    But he will have to reckon with Ordell's accomplices, who have rather expeditious methods.</p>
+                <a href="#" class="btn btn-primary">See the trailer</a>
+                <template><iframe width="500" height="350" src="https://www.youtube.com/embed/7TnOf2AWRMo" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></template>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="http://fr.web.img5.acsta.net/c_215_290/pictures/14/08/26/15/47/004420.jpg" class="affiche"
+                alt="Groom Service">
+            <div class="card-body">
+                <h5 class="card-title">Groom Service</h5>
+                <p class="card-text">
+                    Synopsis and details
+                    The groom of a luxury hotel presents four stories, happening in four rooms
+                    different.
+                    The missing ingredient: witches try to summon the spirit of the goddess Diana.
+                    The wrong man: an armed man confines his wife.
+                    The misbehavers: a gangster, his wife and two children stay in a room.
+                    The man from Hollywood: an arrogant actor organized a party.</p>
+                <a href="#" class="btn btn-primary">See the trailer</a>
+                <template><iframe width="500" height="350" src="https://www.youtube.com/embed/JtArEBG_u2k" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></template>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="http://fr.web.img5.acsta.net/c_215_290/medias/nmedia/18/36/02/52/18846059.jpg" class="affiche"
+                alt="Pulp Fiction">
+            <div class="card-body">
+                <h5 class="card-title">Pulp Fiction</h5>
+                <p class="card-text">
+                    Synopsis and details
+                    Prohibited for children under 12
+                    The bloody and burlesque odyssey of little thugs in the Hollywood jungle through three
+                    stories which
+                    intertwine.</p>
+                <a href="#" class="btn btn-primary">See the trailer</a>
+                <template><iframe width="500" height="350" src="https://www.youtube.com/embed/gjAJnzTPltc" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></template>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="http://fr.web.img6.acsta.net/c_215_290/medias/nmedia/18/35/49/60/18869530.jpg" class="affiche"
+                alt="Reservoir Dog">
+            <div class="card-body">
+                <h5 class="card-title">Reservoir Dog</h5>
+                <p class="card-text">
+                    Synopsis and details
+                    Forbidden to under 16s
+                    After a failed heist, high-flying burglars make their accounts in a confrontation
+                    violent, for
+                    find out which of them betrayed them.</p>
+                <a href="#" class="btn btn-primary">See the trailer</a>
+                <template><iframe width="500" height="350" src="https://www.youtube.com/embed/LVmYxYdTi5w" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></template>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img src="http://fr.web.img4.acsta.net/c_215_290/medias/nmedia/18/72/24/47/19636241.jpg" class="affiche"
+                alt="My Best Friend's Birthday">
+            <div class="card-body">
+                <h5 class="card-title">My Best Friend's Birthday</h5>
+                <p class="card-text">
+                    Synopsis and details
+                    This is the story of Mickey Burnett, a man abandoned by his girlfriend on the day of his
+                    anniversary.
+                    His
+                    best friend, Clarence Pool will do everything
+                    to make him have the best day of his life.</p>
+                <a href="#" class="btn btn-primary">See the trailer</a>
+                <template><iframe width="500" height="350" src="https://www.youtube.com/embed/-JuYfrYLMbo" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></template>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <div>
+            <ul>
+                <li>Mentions légales</li>
+                <li>Ressources</li>
+                <li>Contact</li>
+                <li>A Propos</li>
+            </ul>
+
+            <ul class="icone">
+                <li><a href="https://zupimages.net/viewer.php?id=20/11/ebs8.jpg"><img
+                            src="https://zupimages.net/up/20/11/ebs8.jpg" alt="" / class="rs"></a></li>
+                <li><a href="https://zupimages.net/viewer.php?id=20/11/bt6n.jpg"><img
+                            src="https://zupimages.net/up/20/11/bt6n.jpg" alt="" / class="rs"></a></li>
+                <li><a href="https://zupimages.net/viewer.php?id=20/11/m6l4.jpg"><img
+                            src="https://zupimages.net/up/20/11/m6l4.jpg" alt="" / class="rs"></a></li>
+            </ul>
+        </div>
+
+    </footer>
 
 </html>
