@@ -640,6 +640,7 @@ audio{
 }
 body {
   width: auto;
+  background-color: #ccc;
 }
 /* Fin code css new header mobile */
 img{
