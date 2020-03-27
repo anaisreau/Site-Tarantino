@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="styleindex.css">
     <link rel="stylesheet" href="stylefilmo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <link rel="shortcut icon" type="mage/png"
+        href="https://cdn.imgbin.com/4/9/12/imgbin-quentin-tarantino-blu-ray-disc-reservoir-dogs-dvd-film-channing-tatum-tarantino-poster-5FQFVDj1iSv793E8WMyD6w6v9.jpg">
+    <title>Quentin Tarantino Filmography</title>
 
          
 
@@ -25,10 +27,10 @@
         <!--Version desktop Menu -->
         <nav class="desktop">
             <ul class="menu">
-                <li id="menu"><a class="liens" href="index.html">Accueil</a></li>
-                <li id="menu"><a class="liens" href="biographie.html"> Biographie</a></li>
-                <li id="menu"><a class="liens" href="filmographie.html"> Filmographie</a></li>
-                <li id="menu"><a class="liens" href="galerie.html"> Galerie</a></li>
+                <li id="menu"><a class="liens" href="index.html">Home</a></li>
+                <li id="menu"><a class="liens" href="biographie.html"> Biography</a></li>
+                <li id="menu"><a class="liens" href="filmographie.html"> Filmography</a></li>
+                <li id="menu"><a class="liens" href="galerie.html"> Galery</a></li>
                 <li id="menu"><a class="liens" href="quizz.html"> Quizz</a></li>
             </ul>
             <div class="container">
@@ -52,11 +54,11 @@
     <img src="https://zupimages.net/up/20/11/8y96.png" alt="" class="qt tarantino">
     <!-- Navigation links (hidden by default) -->
     <div id="myLinks">
-      <a href="index.html">Accueil</a>
-      <a href="biographie.html">Biographie</a>
-      <a href="filmographie.html">Filmographie</a>
-      <a href="galerie.html">Galerie</a>
-      <a href="quizz.html"> Quizz</a></li>
+        <a href="index.html">Home</a>
+        <a href="biographie.html">Biography</a>
+        <a href="filmographie.html">Filmography</a>
+        <a href="galerie.html">Galery</a>
+        <a href="quizz.html"> Quizz</a></li>
       <ul class="icone">
         <li><a href="https://zupimages.net/viewer.php?id=20/11/80cx.png"><img src="https://zupimages.net/up/20/11/80cx.png" alt="" class="rs"></a></li>
         <li><a href="https://zupimages.net/viewer.php?id=20/11/0hby.png"><img src="https://zupimages.net/up/20/11/0hby.png" alt="" class="rs"></a></li>
@@ -85,16 +87,13 @@
     </div>
   </div>
   <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Quick access to trailers
-    </button>
-    <div class="dropdown-menu" aria-labelledby="
-    quick access to trailers">
-      <a class="dropdown-item" href="https://youtu.be/Xe_ZQk_Rs98"target="_blank">Once upon a time ... in Hollywood</a>
-      <a class="dropdown-item" href="https://www.youtube.com/watch?v=cM0WxEv5mwg"target="_blank">Les 8 salopards</a>
+    <button onclick="myFunctione()" class="dropbtn">Quick access to trailers <i class="fa fa-caret-down"></i></button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="https://youtu.be/Xe_ZQk_Rs98"target="_blank">Once upon a time ... in Hollywood</a>
+      <a class="dropdown-item" href="https://www.youtube.com/watch?v=cM0WxEv5mwg"target="_blank">The Eight Hatefull</a>
       <a class="dropdown-item" href="https://www.youtube.com/watch?v=K2XjgsfzDrU"target="_blank">Django Unchained</a>
       <a class="dropdown-item" href="https://www.youtube.com/watch?v=BiPUoLI9eGM"target="_blank">Inglorious Basterd</a>
-      <a class="dropdown-item" href="https://www.youtube.com/watch?v=ZboTEXtEZiI"target="_blank">Boulevard de la mort -Un film Grindhouse</a>
+      <a class="dropdown-item" href="https://www.youtube.com/watch?v=ZboTEXtEZiI"target="_blank">Death Boulevard - A Grindhouse Movie</a>
       <a class="dropdown-item" href="https://www.youtube.com/watch?v=j1cjXKdox0M"target="_blank">Double Feature - Grindhouse</a>
       <a class="dropdown-item" href="https://www.youtube.com/watch?v=u6lhaNtpg4I"target="_blank">Sin city</a>
       <a class="dropdown-item" href="https://www.youtube.com/watch?v=49mioQd2yQY"target="_blank">Kill Bill Volume 2</a>
@@ -104,7 +103,7 @@
       <a class="dropdown-item" href="https://www.youtube.com/watch?v=URRFb5sE-I4"target="_blank">Pulp Fiction</a>
       <a class="dropdown-item" href="https://www.youtube.com/watch?v=pswIExH61dw"target="_blank">Reservoir Dog</a>
       <a class="dropdown-item" href="https://www.youtube.com/watch?v=X6MUbRZSg80"target="_blank">My best Friend's Birthday</a>
-
+</div>
     </div>
 
     <div class="listeFilm">
@@ -116,7 +115,7 @@
             <li>Once Upon a Time… in Hollywood</li>
 
             <h2>2015 </h2>
-            <li>Les Huit salopards</li>
+            <li>The Eight Hatefull</li>
 
 
             <h2>2012 </h2>
@@ -128,7 +127,7 @@
 
 
             <h2>2007 </h2>
-            <li>Boulevard de la mort - un film Grindhouse</li>
+            <li>Death Boulevard - A Grindhouse Movie</li>
 
 
             <h2>2007 </h2>
@@ -433,7 +432,9 @@
               </div>
             </div>
 
-
+            
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script type="text/javascript">
     // <!-- Debut fonction JS pour header -->
      ( function() {
@@ -455,17 +456,38 @@ function myFunction() {
     x.style.display = "block";
   }
 } 
+
 //  <!-- Fin fonction js pour header-->
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunctione() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+} 
 </script>
 </body>
 
 <footer>
     <div>
         <ul class="footer">
-            <li>Mentions légales</li>
+            <li>Legal mentions</li>
             <li>Ressources</li>
-            <li>Contact</li>
-            <li>A Propos</li>
+            <li>Contact us</li>
+            <li>About us</li>
         </ul>
 
         <ul class="icone">
