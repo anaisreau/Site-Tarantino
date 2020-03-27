@@ -7,10 +7,7 @@
     <link rel="stylesheet" href="styleindex.css">
     <link rel="stylesheet" href="stylefilmo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
-
-         
-
+    <title>Filmographie Quentin Tarantino</title>
 </head>
     <header class="desktop">
         <a href="https://zupimages.net/viewer.php?id=20/11/2onb.png"><img src="https://zupimages.net/up/20/11/2onb.png"
@@ -31,6 +28,7 @@
                 <li id="menu"><a class="liens" href="galerie.html"> Galerie</a></li>
                 <li id="menu"><a class="liens" href="quizz.html"> Quizz</a></li>
             </ul>
+            
             <div class="container">
                 <form action="javascript:void(0);" method="get">
                     <fieldset>
@@ -64,10 +62,13 @@
       </ul>
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
   </div> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+         
+
 
 
   </div>
@@ -459,9 +460,49 @@
                             src="https://zupimages.net/up/20/11/m6l4.jpg" alt="" / class="rs"></a></li>
             </ul>
         </div>
+ <script src="filmo.js"></script>
+    
+
+    <footer>
+        <div>
+            <ul class="footer">
+                <li>Mentions légales</li>
+                <li>Ressources</li>
+                <li>Contact</li>
+                <li>A Propos</li>
+            </ul>
+    
+            <ul class="icone">
+                <li><a href="https://zupimages.net/viewer.php?id=20/11/ivfe.png"><img src="https://zupimages.net/up/20/11/ivfe.png" alt="" class="rs"></a></li>
+                <li><a href="https://zupimages.net/viewer.php?id=20/05/dpei.png"><img src="https://zupimages.net/up/20/05/dpei.png" alt="" class="rs"></a></li>
+                <li><a href="https://zupimages.net/viewer.php?id=20/08/gnvm.png"><img src="https://zupimages.net/up/20/08/gnvm.png" alt="" class="rs2"></a></li> 
+            </ul>
+        </div>
+            // <!-- Debut fonction JS pour header -->
+    <script>function() {
+
+    $('#btn-search').on('click', function(e) {
+
+    e.preventDefault();
+    $('#search').animate({width: 'toggle'}).focus();
+
+});
+
+} () );
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 
+//  <!-- Fin fonction js pour header-->
+    </script>
 
     </footer>
 
-    <script src="filmo.js"></script>
     </body>
-</html>
+    </html>
+    
