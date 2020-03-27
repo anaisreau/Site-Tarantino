@@ -4,6 +4,10 @@
 
 
 }
+#katana {
+  height: 300px;
+  width: 100%;
+}
 
 /* code commun CSS */
 html{

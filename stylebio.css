@@ -1,25 +1,64 @@
 /* respoonsive */
-@media screen and (max-width: 961px){
-  .flotte1 {
-    flex-direction: column;
-  }
-  .flotte1 img{
-    width: 100%;
-  }
 
-  .flotte {
-    flex-direction: column;
-  }
 
-}
 
 /* partie perso CSS */
+
+.purpose{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.purpose h3{
+  padding-top: 20px;
+}
+
+.categories{
+  width: 40%;
+  font-size: xx-large;
+  border-bottom: #993333 5px solid;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.shadows{
+   background-image: url(https://zupimages.net/up/20/13/ei19.png);
+}
+
+.shadow{
+  margin-bottom: 20px;
+}
+
+.items{
+  width: 90%;
+  margin: auto;
+}
+
+#bloodDripping{
+  width: 100%;
+  height: auto;
+}
+
+#tarantino{
+  width: 40%;
+  height: auto;
+  border-radius: 300px; 
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
 body  {
     background: url('https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fpngimage.net%2Fwp-content%2Fuploads%2F2018%2F06%2Ftarantino-png-1.png') no-repeat 1% 75%;
     background-attachment: fixed;
     background-position: center;
     background-position-x: center;
     background-position-y: bottom;
+    background-color: #ccc;
 }
 .blocOpaque {
     width:100%;
@@ -35,11 +74,11 @@ body  {
 }
 .flotte1 img{
     width:50%;
-    height:30%; 
+    height:auto; 
 }
 .flotte img{
     width:50%;
-    height:30%; 
+    height:auto; 
 }
 .flotte {
     display: flex;
@@ -54,6 +93,11 @@ p{
 #Centre{
     display: flex;
     justify-content: space-around;
+}
+#katana{
+  width: 80%;
+  display: flex;
+  justify-items: center;
 }
  /* <! -- partie commune CSS */ 
  /* curseur */
@@ -201,3 +245,50 @@ p{
     flex-direction: row;
     margin-right: -12px;
     }
+
+
+
+    @media screen and (max-width: 961px){
+
+      .content{
+        width: 100%;
+      }
+    
+        h1{
+          text-align: center;
+
+        }
+        .flotte1 {
+          flex-direction: column;
+        }
+    
+        #tarantino{
+          width: 100%;
+          border-radius: initial;
+        }
+
+        #last_img{
+          width: 100%;
+        }
+    
+        .flotte {
+          display: flex;
+          flex-direction: column;
+        }
+    
+        .flotte img{
+          width: 100%;
+        }
+      .shadow{
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .categories{
+        width: 100%;
+        border: none;
+      }
+     
+    }
+    
