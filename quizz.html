@@ -1,67 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="wclassth=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleindex.css">
     <link rel="stylesheet" href="stylequizz.css">
-    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
-    <!-- fav icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="mage/png"
         href="https://cdn.imgbin.com/4/9/12/imgbin-quentin-tarantino-blu-ray-disc-reservoir-dogs-dvd-film-channing-tatum-tarantino-poster-5FQFVDj1iSv793E8WMyD6w6v9.jpg">
-    <title>Quizz</title>
-    <!-- liens pour animation-->  
-    <style>
-
-  </style>
+    <title>Quentin Tarantino</title>
 </head>
-<header>
-    <a href="https://zupimages.net/viewer.php?id=20/11/2onb.png"><img src="https://zupimages.net/up/20/11/2onb.png"
-            alt="" class="qt"></a>
-    <a href="https://zupimages.net/viewer.php?id=20/11/m5p8.png"><img src="https://zupimages.net/up/20/11/m5p8.png"
-            alt="" class="logo"></a>
-    <a href="https://zupimages.net/viewer.php?id=20/11/8y96.png"><img src="https://zupimages.net/up/20/11/8y96.png"
-            alt="" class="qt tarantino"></a>
-</header>
-
-<body>
-    <div class="blocOpaque">
-        <!-- partie commune menu -->
+    <header class="desktop">
+        <a href="https://zupimages.net/viewer.php?id=20/11/2onb.png"><img src="https://zupimages.net/up/20/11/2onb.png"
+                alt="" class="qt"><hr/></a>
+        <a href="https://zupimages.net/viewer.php?id=20/11/m5p8.png"><img src="https://zupimages.net/up/20/11/m5p8.png"
+                alt="" class="logo"></a>
+        <a href="https://zupimages.net/viewer.php?id=20/11/8y96.png"><img src="https://zupimages.net/up/20/11/8y96.png"
+                alt="" class="qt tarantino"><hr/></a>
+    </header>
+    
+   
+        <!--Version desktop Menu -->
         <nav class="desktop">
-          <ul class="menu">
-              <li id="menu"><a class="liens" href="index.html">Home</a></li>
-              <li id="menu"><a class="liens" href="biographie.html"> Biography</a></li>
-              <li id="menu"><a class="liens" href="filmographie.html"> Filmography</a></li>
-              <li id="menu"><a class="liens" href="galerie.html"> Galery</a></li>
-              <li id="menu"><a class="liens" href="quizz.html"> Quizz</a></li>
-          </ul>
-          
-<!-- ajout page -->
-                <li id="menu"><a class="liens" href="quizz.html"> Quizz</a> </li>
-<!-- fin ajout page -->
+            <ul class="menu">
+                <li id="menu"><a class="liens" href="index.html">Home</a></li>
+                <li id="menu"><a class="liens" href="biographie.html"> Biography</a></li>
+                <li id="menu"><a class="liens" href="filmographie.html"> Filmography</a></li>
+                <li id="menu"><a class="liens" href="galerie.html"> Galery</a></li>
+                <li id="menu"><a class="liens" href="quizz.html"> Quizz</a></li>
             </ul>
-            <ul class="icone">
-                <li><a href="https://www.instagram.com/nadir_13016/"><img src="https://zupimages.net/up/20/11/80cx.png"
-                            alt="instagram" class="rs"></a></li>
-                <li><a href="https://www.youtube.com/watch?v=kxopViU98Xo&t=6s"><img
-                            src="https://zupimages.net/up/20/11/0hby.png" alt="" class="rs"></a></li>
-                <li><a href="https://www.youtube.com/watch?v=qBfqcVUK8Q0"><img
-                            src="https://zupimages.net/up/20/11/nqb9.png" alt="" class="rs"></a></li>
-                <li><a href="https://www.youtube.com/watch?v=jcF-1AoDO18Ë"><img
-                            src="https://zupimages.net/up/20/11/ry4p.png" alt="" class="rs"></a></li>
-            </ul>
+            
+            <div class="container">
+                <form action="javascript:void(0);" method="get">
+                    <fieldset>
+                        <ul class="toolbar clearfix">
+                            <li><a href="https://zupimages.net/viewer.php?id=20/11/80cx.png"><img src="https://zupimages.net/up/20/11/80cx.png" alt="" class="rs"></a></li>
+                            <li><a href="https://zupimages.net/viewer.php?id=20/11/0hby.png"><img src="https://zupimages.net/up/20/11/0hby.png" alt="" class="rs"></a></li>
+                            <li><a href="https://zupimages.net/viewer.php?id=20/11/nqb9.png"><img src="https://zupimages.net/up/20/11/nqb9.png" alt="" class="rs"></a></li>
+                            <li><input type="search" id="search" onkeyup="mySearchFunction()" placeholder="Search"></li>
+                            <li><button type="submit" id="btn-search"><img src="https://zupimages.net/up/20/11/ry4p.png" alt="" class="rs"></button>
+                        </ul>
+                    </fieldset>
+                </form>
+            </div> 
         </nav>
+       <!-- Version mobile Menu -->
+<div class="topnav">
+    <img src="https://zupimages.net/up/20/11/m5p8.png" alt="" class="logo">
+    <img src="https://zupimages.net/up/20/11/2onb.png" alt="" class="qt">
+    <img src="https://zupimages.net/up/20/11/8y96.png" alt="" class="qt tarantino">
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="biographie.html">Biography</a>
+        <a href="filmographie.html">Filmography</a>
+        <a href="galerie.html">Galery</a>
+        <a href="quizz.html"> Quizz</a>
+      <ul class="icone">
+        <li><a href="https://zupimages.net/viewer.php?id=20/11/80cx.png"><img src="https://zupimages.net/up/20/11/80cx.png" alt="" class="rs"></a></li>
+        <li><a href="https://zupimages.net/viewer.php?id=20/11/0hby.png"><img src="https://zupimages.net/up/20/11/0hby.png" alt="" class="rs"></a></li>
+        <li><a href="https://zupimages.net/viewer.php?id=20/11/nqb9.png"><img src="https://zupimages.net/up/20/11/nqb9.png" alt="" class="rs"></a></li>
+      </ul>
     </div>
-<div  >
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <div id="centre">
     <div class="titre" >
         <h1 >How Much Do You Know Quentin Tarantino</h1>
     </div>
 </div>
-  <div  class="quizz "> 
+  <div class="quizz "> 
 
       <form oninput="score.value=parseInt(question1.value || 0)+parseInt(question2.value || 0)+parseInt(question3.value || 0)+parseInt(question4.value || 0)+parseInt(question5.value || 0)+parseInt(question6.value || 0)+parseInt(question7.value || 0)+parseInt(question8.value || 0)+parseInt(question9.value || 0)+parseInt(question10.value || 0)">
          <div>
@@ -71,7 +83,7 @@
           <div>
             <p>For Which movie Quentin TARANTINO won the "Palm d'OR"?</p>
             <input id="question1-answer1" name="question1" type="radio" value="1">
-            <label for="question1-answer1">Pul Fiction</label>
+            <label for="question1-answer1">Pulp Fiction</label>
             <input id="question1-answer2" name="question1" type="radio" value="0">
             <label for="question1-answer2">Reservoir Dogs</label>
           </div>
