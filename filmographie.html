@@ -437,16 +437,7 @@
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script type="text/javascript">
     // <!-- Debut fonction JS pour header -->
-     ( function() {
-
-    $('#btn-search').on('click', function(e) {
-
-    e.preventDefault();
-    $('#search').animate({width: 'toggle'}).focus();
-
-});
-
-} () );
+    
 
 function myFunction() {
   var x = document.getElementById("myLinks");
@@ -464,6 +455,17 @@ toggle between hiding and showing the dropdown content */
 function myFunctione() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
+
+( function() {
+
+$('#btn-search').on('click', function(e) {
+
+e.preventDefault();
+$('#search').animate({width: 'toggle'}).focus();
+
+});
+
+} () );
 
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
