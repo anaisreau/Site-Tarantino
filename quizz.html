@@ -164,6 +164,18 @@
 
 
   <script>
+
+( function() {
+
+$('#btn-search').on('click', function(e) {
+
+e.preventDefault();
+$('#search').animate({width: 'toggle'}).focus();
+
+});
+
+} () );
+
     train.onclick = function() {
       let start = Date.now();
 
@@ -186,16 +198,7 @@ function myFunction() {
     x.style.display = "block";
   }
 } 
-( function() {
 
-$('#btn-search').on('click', function(e) {
-
-e.preventDefault();
-$('#search').animate({width: 'toggle'}).focus();
-
-});
-
-} () );
 
 
   </script>
