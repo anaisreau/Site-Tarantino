@@ -116,3 +116,7 @@ div form div label{
       display: flex;
       justify-content: flex-end;
   }
+
+  .hr{
+    color: #99333391;
+  }

@@ -13,6 +13,10 @@ html{
     margin-right: -14px;
 }
 
+.hr{
+    color: #99333391;
+}
+
 .fa{
     display: flex;
     justify-content: baseline;

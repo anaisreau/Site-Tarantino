@@ -10,6 +10,10 @@ header{
   
 }
 
+.hr{
+  color: #99333391;
+}
+
 .topnav {
   display: none;
 }

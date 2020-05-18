@@ -11,6 +11,10 @@
   margin-bottom: 30px;
 }
 
+.hr{
+  color: #99333391;
+}
+
 .purpose h3{
   padding-top: 20px;
 }
@@ -93,6 +97,7 @@ body  {
 p{
     text-align: justify;
     margin: 10px;
+    max-width: 60%;
 }
 #Centre{
     display: flex;
