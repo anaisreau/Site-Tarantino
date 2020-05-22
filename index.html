@@ -113,18 +113,18 @@ function myFunction() {
 } 
 
 function mySearchFunction() {
-    var input, filter, ul, li, a, i, txtValue;
+    var input, filter, ul, list, a, i, txtValue;
     input = document.getElementById("search");
     filter = input.value.toUpperCase();
-    ul = document.getElementsByClassName("menu");
-    li = ul.getElementById("menu");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
+    ul = document.getElementsByTagName("li");
+    list = ul.getElementById("menu");
+    for (i = 0; i < list.length; i++) {
+        a = list[i].getElementsByTagName("a")[0];
         txtValue = a.textContent || a.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
+            list[i].style.display = "";
         } else {
-            li[i].style.display = "none";
+            list[i].style.display = "none";
         }
     }
 }
