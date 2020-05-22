@@ -112,10 +112,10 @@ function myFunction() {
 } 
 
 function mySearchFunction() {
-    var input, filter, ul, list, a, i, txtValue;
+    var input, filter, ulist, list, a, i, txtValue;
     input = document.getElementById("search");
     filter = input.value.toUpperCase();
-    ul = document.getElementsByClassName("menu");
+    ulist = document.getElementsByClassName("menu");
     list = ul.getElementsByClassName("menu1");
     for (i = 0; i < list.length; i++) {
         a = list[i].getElementsByClassName("liens")[0];
