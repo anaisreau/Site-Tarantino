@@ -22,11 +22,11 @@
         <!--Version desktop Menu -->
         <nav class="desktop">
             <ul class="menu">
-                <li id="menu"><a class="liens" href="index.html">Home</a></li>
-                <li id="menu"><a class="liens" href="biographie.html"> Biography</a></li>
-                <li id="menu"><a class="liens" href="filmographie.html"> Filmography</a></li>
-                <li id="menu"><a class="liens" href="galerie.html"> Galery</a></li>
-                <li id="menu"><a class="liens" href="quizz.html"> Quizz</a></li>
+                <li class="menu1"><a class="liens" href="index.html">Home</a></li>
+                <li class="menu1"><a class="liens" href="biographie.html"> Biography</a></li>
+                <li class="menu1"><a class="liens" href="filmographie.html"> Filmography</a></li>
+                <li class="menu1"><a class="liens" href="galerie.html"> Galery</a></li>
+                <li class="menu1"><a class="liens" href="quizz.html"> Quizz</a></li>
             </ul>
             
             <div class="container">
@@ -116,9 +116,9 @@ function mySearchFunction() {
     input = document.getElementById("search");
     filter = input.value.toUpperCase();
     ul = document.getElementsByClassName("menu");
-    list = ul.getElementsByTagName("li");
+    list = ul.getElementsByClassName("menu1");
     for (i = 0; i < list.length; i++) {
-        a = list[i].getElementsByTagName("a")[0];
+        a = list[i].getElementsByClassName("liens")[0];
         txtValue = a.textContent || a.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
             list[i].style.display = "";
