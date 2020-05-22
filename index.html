@@ -116,7 +116,7 @@ function mySearchFunction() {
     input = document.getElementById("search");
     filter = input.value.toUpperCase();
     ul = document.getElementsByClassName("menu");
-    li = ul.getElementsByTagName("li");
+    li = ul.getElementById("menu");
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];
         txtValue = a.textContent || a.innerText;
