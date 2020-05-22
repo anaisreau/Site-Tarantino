@@ -54,7 +54,7 @@ max-width: 100%;
 align-items: center;
 }
 
-nav .menu1{
+nav #menu{
   display: flex;
   margin-left: 30px;
 }
