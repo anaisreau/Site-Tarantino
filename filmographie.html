@@ -40,11 +40,27 @@
                             <li><a href="https://www.instagram.com/"><img src="https://zupimages.net/up/20/11/80cx.png" alt="" class="rs"></a></li>
                             <li><a href="https://www.facebook.com/"><img src="https://zupimages.net/up/20/11/0hby.png" alt="" class="rs"></a></li>
                             <li><a href="https://twitter.com/explore"><img src="https://zupimages.net/up/20/11/nqb9.png" alt="" class="rs"></a></li>
-                            <li><input type="search" id="search" placeholder="Search"></li>
+                            <li><input list="ccList" type="search" id="search" onkeyup="catch_link()" placeholder="Search movies ..."></li>
                             <li><button type="submit" id="btn-search"><img src="https://zupimages.net/up/20/11/ry4p.png" alt="" class="rs"></button>
                         </ul>
                     </fieldset>
                 </form>
+                <datalist id='ccList' class="col-2">
+                  <option value="Death Boulevard">Death Boulevard</option>
+                  <option value="Death Proof">Death Proof</option>
+                  <option value="Django Unchained">Django Unchained</option>
+                  <option value="Groom Service">Groom Service</option>
+                  <option value="Inglorious Basterds">Inglorious Basterds</option>
+                  <option value="Jackie Brown">Jackie Brown</option>
+                  <option value="Kill Bill Volume 1">Kill Bill Volume 1</option>
+                  <option value="Kill Bill Volume 2">Kill Bill Volume 2</option>
+                  <option value="My Best Friend's Birthday">My Best Friend's Birthday</option>
+                  <option value="Once upon a time in ... Hollywood">Once upon a time in ... Hollywood</option>
+                  <option value="Pulp Fiction">Pulp Fiction</option>
+                  <option value="Reservoir Dogs">Reservoir Dogs</option>
+                  <option value="Sin City">Sin City</option>
+                  <option value="The Eight Hatefull">The Eight Hatefull</option>
+                </datalist>
             </div> 
         </nav>
        <!-- Version mobile Menu -->
@@ -127,11 +143,11 @@
 
 
             <h2>2007 </h2>
-            <li>Death Boulevard - A Grindhouse Movie</li>
+            <li>Death Boulevard</li>
 
 
             <h2>2007 </h2>
-            <li>Double Feature: Grindhouse</li>
+            <li>Death Proof</li>
 
 
             <h2>2005 </h2>
@@ -178,7 +194,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Once Upon a Time… in Hollywood</h5>
+                      <h5 id="ancre1" class="card-title">Once Upon a Time… in Hollywood</h5>
                       <p class="card-text">Prohibited for children under 12
                         In 1969 television star Rick Dalton and stuntman Cliff Booth, his longtime understudy, sued
                         their careers in an industry they no longer recognize.</p>
@@ -194,7 +210,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">The Hateful Eight</h5>
+                      <h5 id="ancre2" class="card-title">The Hateful Eight</h5>
                       <p class="card-text">Synopsis and details
                         Prohibited for children under 12 with warning²
                         A few years after the Civil War, bounty hunter John Ruth, known as Le Bourreau, set sail
@@ -213,7 +229,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Django Unchained</h5>
+                      <h5 id="ancre3" class="card-title">Django Unchained</h5>
                       <p class="card-text">Synopsis and details
                         Prohibited for children under 12
                         In the southern United States, two years before the Civil War, Dr. King Schultz, a hunter bonuses... see more
@@ -232,7 +248,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Inglorious Basterds</h5>
+                      <h5 id="ancre4" class="card-title">Inglorious Basterds</h5>
                       <p class="card-text"> Synopsis and details
                         Prohibited for children under 12
                         In occupied France in 1940, Shosanna Dreyfus attends the execution of her fallen family
@@ -252,7 +268,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Death Proof</h5>
+                      <h5 id="ancre5" class="card-title">Death Proof</h5>
                       <p class="card-text"> Synopsis and details
                         Prohibited for children under 12
                         Jungle Julia, Austin's sexiest DJ, can finally relax at dusk
@@ -272,7 +288,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Double Feature: Grindhouse</h5>
+                      <h5 id="ancre6" class="card-title">Death Boulevard</h5>
                       <p class="card-text">  Synopsis and details
                         A crazy diptych, a tribute to exploitation films and double programs from the 70s,
                         compose
@@ -291,7 +307,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Sin city</h5>
+                      <h5 id="ancre7" class="card-title">Sin city</h5>
                       <p class="card-text">  Synopsis and details
                         Prohibited for children under 12
                     Sin City is a city infested with criminals, rogue cops and fatal women. 
@@ -309,7 +325,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Kill Bill Volume 2</h5>
+                      <h5 id="ancre8" class="card-title">Kill Bill Volume 2</h5>
                       <p class="card-text"> Synopsis and details Prohibited for children under 12
                         After getting rid of her former colleagues Vernita Green and O-Ren Ishii, the Bride
                         continues its
@@ -328,7 +344,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Kill Bill Volume 1</h5>
+                      <h5 id="ancre9" class="card-title">Kill Bill Volume 1</h5>
                       <p class="card-text"> Synopsis and details
                         Forbidden to under 16s
                         During a wedding ceremony in the middle of the desert, a commando burst into the chapel
@@ -348,7 +364,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Jackie Brown</h5>
+                      <h5 id="ancre10" class="card-title">Jackie Brown</h5>
                       <p class="card-text"> Synopsis and details
                         Jackie Brown, stewardess, makes ends meet by delivering cash for
                         the
@@ -367,7 +383,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Groom Service</h5>
+                      <h5 id="ancre11" class="card-title">Groom Service</h5>
                       <p class="card-text"> Synopsis and details
                         The groom of a luxury hotel presents four stories, happening in four rooms
                         different... see more
@@ -384,7 +400,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Pulp Fiction</h5>
+                      <h5 id="ancre12" class="card-title">Pulp Fiction</h5>
                       <p class="card-text"> Synopsis and details
                         Prohibited for children under 12
                         The bloody and burlesque odyssey of little thugs in the Hollywood jungle...see more
@@ -401,7 +417,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">Reservoir Dog</h5>
+                      <h5 id="ancre13" class="card-title">Reservoir Dog</h5>
                       <p class="card-text"> Synopsis and details
                         Forbidden to under 16s
                         After a failed heist, high-flying burglars make their accounts in a confrontation
@@ -420,7 +436,7 @@
                   </div>
                   <div class="col-md-8">
                     <div class="card-body">
-                      <h5 class="card-title">My Best Friend's Birthday</h5>
+                      <h5 id="ancre14" class="card-title">My Best Friend's Birthday</h5>
                       <p class="card-text"> Synopsis and details
                         This is the story of Mickey Burnett, a man abandoned by his girlfriend on the day of his
                         anniversary....see more
@@ -481,6 +497,7 @@ window.onclick = function(event) {
   }
 } 
 </script>
+<script src="test.js"></script>
 </body>
 
 <footer>

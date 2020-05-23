@@ -39,11 +39,27 @@
                             <li><a href="https://www.instagram.com/"><img src="https://zupimages.net/up/20/11/80cx.png" alt="" class="rs"></a></li>
                             <li><a href="https://www.facebook.com/"><img src="https://zupimages.net/up/20/11/0hby.png" alt="" class="rs"></a></li>
                             <li><a href="https://twitter.com/explore"><img src="https://zupimages.net/up/20/11/nqb9.png" alt="" class="rs"></a></li>
-                            <li><input type="search" id="search" onkeyup="mySearchFunction()" placeholder="Search"></li>
+                            <li><input list="ccList" type="search" id="search" onkeyup="catch_link()" placeholder="Search movies ..."></li>
                             <li><button type="submit" id="btn-search"><img src="https://zupimages.net/up/20/11/ry4p.png" alt="" class="rs"></button>
                         </ul>
                     </fieldset>
                 </form>
+                <datalist id='ccList' class="col-2">
+                  <option value="Death Boulevard">Death Boulevard</option>
+                  <option value="Death Proof">Death Proof</option>
+                  <option value="Django Unchained">Django Unchained</option>
+                  <option value="Groom Service">Groom Service</option>
+                  <option value="Inglorious Basterds">Inglorious Basterds</option>
+                  <option value="Jackie Brown">Jackie Brown</option>
+                  <option value="Kill Bill Volume 1">Kill Bill Volume 1</option>
+                  <option value="Kill Bill Volume 2">Kill Bill Volume 2</option>
+                  <option value="My Best Friend's Birthday">My Best Friend's Birthday</option>
+                  <option value="Once upon a time in ... Hollywood">Once upon a time in ... Hollywood</option>
+                  <option value="Pulp Fiction">Pulp Fiction</option>
+                  <option value="Reservoir Dogs">Reservoir Dogs</option>
+                  <option value="Sin City">Sin City</option>
+                  <option value="The Eight Hatefull">The Eight Hatefull</option>
+                </datalist>
             </div> 
         </nav>
        <!-- Version mobile Menu -->
@@ -192,5 +208,6 @@ $('#search').animate({width: 'toggle'}).focus();
   }
       </script>
 </footer>
+<script src="test.js"></script>
 </body>
 </html>

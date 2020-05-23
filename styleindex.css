@@ -10,6 +10,10 @@ header{
   
 }
 
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
 .hr{
   color: #99333391;
 }
